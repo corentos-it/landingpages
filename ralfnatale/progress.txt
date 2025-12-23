@@ -1,0 +1,24 @@
+Memory-ID: LP-2025-12-18-01
+
+Kontext:
+- Landingpage für Ralf Natale erstellt
+- Node.js v24 installiert via winget (IDE-Neustart nötig für npm)
+
+Abgeschlossen:
+- CV ausgelesen (CV_RalfNatale_NET-Development.txt)
+- Design: Dunkel/Professionell (Anthrazit + Gold)
+- Profilbild: _ProfileMail.png → profile.png kopiert
+- Astro-Projekt angelegt (für spätere Nutzung mit Node.js)
+- Reine HTML-Version erstellt: ralf-natale-landing/index.html
+- Sektionen: Hero, Über mich, Leistungen, Technologien, Projekte, Testimonials (Platzhalter), Kontaktformular
+
+Dateien:
+- d:\Development\LandingPages\ralf-natale-landing\index.html (Hauptseite)
+- d:\Development\LandingPages\ralf-natale-landing\profile.png (Profilbild)
+- d:\Development\LandingPages\ralf-natale-landing\public\profile.png (Astro-Version)
+
+Offen:
+- Testimonials mit echten Kundenstimmen ersetzen
+- Kontaktformular: Formspree-Account einrichten (aktuell Platzhalter-URL)
+- Optional: Nach IDE-Neustart Astro-Version mit npm install aktivieren
+- Deployment auf Netlify/Webserver

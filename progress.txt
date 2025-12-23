@@ -1,0 +1,35 @@
+Memory-ID: 3c8b6a27-5c6a-4df7-9d7d-6204b22b2c7a
+
+Abgeschlossen:
+- progress.txt neu angelegt im Workspace-Root (d:\Development\LandingPages\progress.txt)
+- corentos: Hero-Markup repariert (überflüssiges </div> entfernt)
+- corentos: Größenlimit der Hero-Grafik entfernt (w-[30%] → max-w-full)
+- corentos: Filter über Hero-Bild gelegt (brightness-75, saturate-75)
+- corentos: Hero-Pitch Text professioneller formuliert
+- corentos: Design-Schriftfarbe aus index-b übernommen (accent-Palette + Hero Brand Text)
+- corentos: Hero rechts Bild ersetzt durch Pyramiden-SVG aus index-b
+- corentos: Hero-Pyramide Icons modernisiert (Emojis → SVG)
+- corentos: Leistungen-Icons an Hero-Icons angeglichen (Emojis → SVG)
+- corentos: Ab Stats jede zweite Sektion mit hellem Weiß/Blau-Schimmer Hintergrund
+- corentos: Alternierende Sektionen: Blau-Schimmer entfernt (reines Weiß-Tint)
+- corentos: Hero-Pyramide hervorgehoben (Glow-Hintergrund)
+- corentos: Alternierende Sektionen stärker abgesetzt (bg-white/10 + border-y)
+- corentos: Leistungen Section testweise komplett weiß (bg-white)
+- corentos: Über uns Section testweise komplett weiß (bg-white) + Textfarben angepasst
+- corentos: Weiß-Hintergrund abgeschwächt (leichter Blau-Schimmer via Gradient in Leistungen/Über uns)
+- corentos: Leistungen Section: Gradient entfernt, Solid-Farbe bg-accent-300/15
+- corentos: Leistungen Section Hintergrundfarbe gesetzt auf rgb(148,166,174)
+- corentos: Über uns Section Hintergrundfarbe gesetzt auf rgb(148,166,174)
+- corentos: Sektions-Header angepasst (Option A: Titel komplett dunkel, nur Unterstrich Accent)
+- corentos: Über uns Textblöcke in Card-Container gelegt (wie Leistungen)
+- corentos: Über uns Cards auf gleiche Höhe gebracht (items-stretch + h-full)
+
+Offen:
+- corentos: Content in JSON auslagern
+
+Abgeschlossen (Aufräumen):
+- corentos: Finale Variante ist index.html (umbenannt von index-d.html)
+- corentos: Varianten index-a.html, index-b*.html, index-c.html in den Papierkorb verschoben
+
+Details:
+- Projekt: d:\Development\LandingPages\corentos\www\index.html

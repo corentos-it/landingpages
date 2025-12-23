@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ralf Natale - IT-Consulting: Erfahren. Prozessorientiert. Effizient.">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Ralf Natale | IT-Consulting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'anthracite': { 900: '#0a1628', 800: '#132238', 700: '#1c3048', 600: '#254058' },
+            'gold': { 500: '#00a8a8', 400: '#00c4c4', 300: '#33d6d6' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300 700;
+      font-display: swap;
+      src: url('inter-latin.woff2') format('woff2');
+    }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white text-gray-800 antialiased">
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="#" class="text-xl font-bold text-gold-500">RN</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="text-gray-600 hover:text-gold-500 transition-colors">Über mich</a>
+          <a href="#services" class="text-gray-600 hover:text-gold-500 transition-colors">Leistungen</a>
+          <a href="#projects" class="text-gray-600 hover:text-gold-500 transition-colors">Projekte</a>
+          <a href="#contact" class="text-gray-600 hover:text-gold-500 transition-colors">Kontakt</a>
+        </div>
+        <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="md:hidden text-gray-600">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200 px-4 py-3 space-y-2">
+      <a href="#about" class="block text-gray-600 hover:text-gold-500 py-2">Über mich</a>
+      <a href="#services" class="block text-gray-600 hover:text-gold-500 py-2">Leistungen</a>
+      <a href="#projects" class="block text-gray-600 hover:text-gold-500 py-2">Projekte</a>
+      <a href="#contact" class="block text-gray-600 hover:text-gold-500 py-2">Kontakt</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-[66vh] flex items-center justify-center pt-16 bg-cover bg-no-repeat" style="background-image: linear-gradient(rgba(10, 22, 40, 0.7), rgba(10, 22, 40, 0.85)), url('images/header.png'); background-position: center top; background-size: cover;">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl sm:text-6xl font-bold mb-4" id="hero-name"></h1>
+      <p class="text-xl sm:text-2xl text-gold-300 font-light mb-6" id="hero-slogan"></p>
+      <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-10" id="hero-description"></p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="px-8 py-3 bg-gold-500 text-white font-semibold rounded-lg hover:bg-gold-400 transition-colors shadow-lg" id="hero-cta-primary"></a>
+        <a href="#about" class="px-8 py-3 border border-gold-400 text-gold-400 font-semibold rounded-lg hover:bg-gold-500/10 transition-colors" id="hero-cta-secondary"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-8 bg-anthracite-900 border-y border-anthracite-700">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16" id="stats-container"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-gray-800"><span class="text-gold-500">Über</span> mich</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div id="about-paragraphs"></div>
+        <div class="space-y-4">
+          <h3 class="text-xl font-semibold text-gold-500 mb-4">Mein Ansatz</h3>
+          <div id="about-approach"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-gray-800">Meine <span class="text-gold-500">Leistungen</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-3 gap-8" id="services-container"></div>
+    </div>
+  </section>
+
+  <!-- Technologies Section -->
+  <section id="skills" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-gray-800"><span class="text-gold-500">Technologien</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="flex flex-wrap justify-center gap-3" id="technologies-container"></div>
+    </div>
+  </section>
+
+  <!-- Own Products Section -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-gray-800">Eigene <span class="text-gold-500">Produkte</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-8" id="own-products-container"></div>
+    </div>
+  </section>
+
+  <!-- Client Projects Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-gray-800"><span class="text-gold-500">Kunden</span>projekte</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-8" id="client-projects-container"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-gray-800">Was <span class="text-gold-500">Kunden</span> sagen</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-3 gap-8" id="testimonials-container"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-anthracite-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4 text-white"><span class="text-gold-400">Kontakt</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-xl font-semibold text-white mb-6" id="contact-subtitle"></h3>
+          <p class="text-gray-400 mb-8" id="contact-text"></p>
+          <div class="space-y-4" id="contact-info"></div>
+        </div>
+        <div id="form-success" class="hidden p-4 mb-6 bg-green-500/20 border border-green-500 rounded-lg text-green-400">Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.</div>
+        <div id="form-error" class="hidden p-4 mb-6 bg-red-500/20 border border-red-500 rounded-lg text-red-400">Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.</div>
+        <form action="send-mail.php" method="POST" class="space-y-6">
+          <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off">
+          <div><label class="block text-sm text-gray-300 mb-2">Name</label><input type="text" name="name" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500" placeholder="Ihr Name"></div>
+          <div><label class="block text-sm text-gray-300 mb-2">E-Mail</label><input type="email" name="email" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500" placeholder="ihre@email.de"></div>
+          <div><label class="block text-sm text-gray-300 mb-2">Nachricht</label><textarea name="message" rows="4" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500 resize-none" placeholder="Ihre Nachricht..."></textarea></div>
+          <button type="submit" class="w-full px-8 py-3 bg-gold-500 text-white font-semibold rounded-lg hover:bg-gold-400 transition-colors">Nachricht senden</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 bg-anthracite-900 border-t border-anthracite-700">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="text-gray-400 text-sm mb-4 md:mb-0">© <script>document.write(new Date().getFullYear())</script> Ralf Natale. Alle Rechte vorbehalten.</div>
+      <div class="flex space-x-6" id="footer-links"></div>
+    </div>
+  </footer>
+
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" id="scrollToTop" class="fixed bottom-6 right-6 w-12 h-12 bg-gold-500 text-white rounded-full shadow-lg hover:bg-gold-400 transition-colors hidden items-center justify-center text-xl font-bold">↑</button>
+
+  <script>
+    // Load content from JSON
+    fetch('data/content.json')
+      .then(response => response.json())
+      .then(data => {
+        // Hero Section
+        document.getElementById('hero-name').innerHTML = `<span class="text-white">${data.hero.name.split(' ')[0]}</span> <span class="text-gold-400">${data.hero.name.split(' ')[1]}</span>`;
+        document.getElementById('hero-slogan').textContent = data.hero.slogan;
+        document.getElementById('hero-description').textContent = data.hero.description;
+        document.getElementById('hero-cta-primary').textContent = data.hero.ctaPrimary;
+        document.getElementById('hero-cta-secondary').textContent = data.hero.ctaSecondary;
+
+        // Stats Section
+        const statsContainer = document.getElementById('stats-container');
+        data.stats.forEach(stat => {
+          statsContainer.innerHTML += `
+            <div class="text-center">
+              <div class="text-4xl md:text-5xl font-bold text-gold-400">${stat.value}</div>
+              <div class="text-gray-400 text-sm mt-1">${stat.label}</div>
+            </div>
+          `;
+        });
+
+        // About Section (light theme)
+        const aboutParagraphs = document.getElementById('about-paragraphs');
+        data.about.paragraphs.forEach(p => {
+          // Replace gold-400 with gold-500 for light theme
+          const lightP = p.replace('text-gold-400', 'text-gold-500');
+          aboutParagraphs.innerHTML += `<p class="text-gray-600 text-lg leading-relaxed mb-6">${lightP}</p>`;
+        });
+
+        const aboutApproach = document.getElementById('about-approach');
+        data.about.approach.forEach(item => {
+          aboutApproach.innerHTML += `
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-gray-800 font-medium">${item.title}</span><p class="text-gray-500 text-sm">${item.text}</p></div>
+            </div>
+          `;
+        });
+
+        // Services Section (light theme)
+        const servicesContainer = document.getElementById('services-container');
+        data.services.forEach(service => {
+          servicesContainer.innerHTML += `
+            <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 hover:border-gold-500/50 hover:shadow-lg transition-all">
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">${service.title}</h3>
+              <p class="text-gray-600">${service.text}</p>
+            </div>
+          `;
+        });
+
+        // Technologies Section (light theme)
+        const techContainer = document.getElementById('technologies-container');
+        data.technologies.forEach(tech => {
+          techContainer.innerHTML += `<span class="px-4 py-2 bg-white border border-gray-200 text-gray-700 rounded-full shadow-sm">${tech}</span>`;
+        });
+
+        // Own Products Section (dark cards on light bg)
+        const ownProductsContainer = document.getElementById('own-products-container');
+        data.ownProducts.forEach(product => {
+          const tagsHtml = product.tags.map(tag => `<span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">${tag}</span>`).join('');
+          const linkHtml = product.url ? `<a href="${product.url}" target="_blank" class="text-gold-400 hover:text-gold-300 text-sm">${product.linkText}</a>` : '';
+          ownProductsContainer.innerHTML += `
+            <div class="bg-gradient-to-br from-anthracite-900 to-anthracite-800 p-6 rounded-xl border-2 border-gold-500/50 hover:border-gold-500 transition-colors">
+              <div class="flex justify-end mb-4"><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Eigenes Produkt</span></div>
+              <h3 class="text-xl font-semibold text-white mb-3">${product.title}</h3>
+              <p class="text-gray-400 mb-4">${product.description}</p>
+              <div class="flex flex-wrap gap-2 mb-4">${tagsHtml}</div>
+              ${linkHtml}
+            </div>
+          `;
+        });
+
+        // Client Projects Section (light theme)
+        const clientProjectsContainer = document.getElementById('client-projects-container');
+        data.clientProjects.forEach(project => {
+          const tagsHtml = project.tags.map(tag => `<span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">${tag}</span>`).join('');
+          const linkHtml = project.url ? `<a href="${project.url}" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">${project.linkText}</a>` : '';
+          clientProjectsContainer.innerHTML += `
+            <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex justify-between mb-4"><span class="text-gold-500 text-sm">${project.period}</span><span class="px-3 py-1 bg-gold-500/10 text-gold-600 rounded-full text-xs">Abgeschlossen</span></div>
+              <h3 class="text-xl font-semibold text-gray-800 mb-3">${project.title}</h3>
+              <p class="text-gray-600 mb-4">${project.description}</p>
+              <div class="flex flex-wrap gap-2 mb-4">${tagsHtml}</div>
+              ${linkHtml}
+            </div>
+          `;
+        });
+
+        // Testimonials Section (light theme)
+        const testimonialsContainer = document.getElementById('testimonials-container');
+        data.testimonials.forEach(testimonial => {
+          testimonialsContainer.innerHTML += `
+            <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+              <div class="flex mb-4 text-gold-500">★★★★★</div>
+              <p class="text-gray-600 italic mb-6">"${testimonial.text}"</p>
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-500 font-semibold mr-3">${testimonial.initials}</div>
+                <div>
+                  <div class="text-gray-800 font-medium">${testimonial.name}</div>
+                  <div class="text-gray-500 text-sm">${testimonial.role}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+
+        // Contact Section (dark theme)
+        document.getElementById('contact-subtitle').textContent = data.contact.subtitle;
+        document.getElementById('contact-text').textContent = data.contact.text;
+        
+        const contactInfo = document.getElementById('contact-info');
+        contactInfo.innerHTML = `
+          <div class="flex items-center"><div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-400">📍</div><div><div class="text-gray-500 text-sm">Standort</div><span class="text-white">${data.contact.location}</span></div></div>
+          <div class="flex items-center"><div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-400">in</div><div><div class="text-gray-500 text-sm">LinkedIn</div><a href="${data.contact.linkedin.url}" target="_blank" class="text-white hover:text-gold-400">${data.contact.linkedin.display}</a></div></div>
+          <div class="flex items-center"><div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-400">f</div><div><div class="text-gray-500 text-sm">Facebook</div><a href="${data.contact.facebook.url}" target="_blank" class="text-white hover:text-gold-400">${data.contact.facebook.display}</a></div></div>
+        `;
+
+        // Footer Links
+        const footerLinks = document.getElementById('footer-links');
+        footerLinks.innerHTML = `
+          <a href="${data.contact.linkedin.url}" target="_blank" class="text-gray-400 hover:text-gold-500">LinkedIn</a>
+          <a href="${data.contact.facebook.url}" target="_blank" class="text-gray-400 hover:text-gold-500">Facebook</a>
+        `;
+      })
+      .catch(error => console.error('Error loading content:', error));
+
+    // Form status handling
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('status') === 'success') {
+      document.getElementById('form-success').classList.remove('hidden');
+      document.getElementById('contact').scrollIntoView();
+    } else if (params.get('status') === 'error') {
+      document.getElementById('form-error').classList.remove('hidden');
+      document.getElementById('contact').scrollIntoView();
+    }
+
+    // Scroll to top button
+    window.addEventListener('scroll', function() {
+      var btn = document.getElementById('scrollToTop');
+      if (window.scrollY > 300) {
+        btn.classList.remove('hidden');
+        btn.classList.add('flex');
+      } else {
+        btn.classList.add('hidden');
+        btn.classList.remove('flex');
+      }
+    });
+  </script>
+</body>
+</html>
