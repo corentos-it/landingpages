@@ -1,0 +1,43 @@
+<nav class="fixed top-0 left-0 right-0 z-50 bg-primary-900/95 backdrop-blur-sm border-b border-primary-700">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <a href="index.html" class="text-xl font-bold text-accent-400" data-i18n="brand">corentos</a>
+
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#about" class="text-gray-300 hover:text-accent-400 transition-colors" data-i18n="nav.about">Über uns</a>
+        <a href="#services" class="text-gray-300 hover:text-accent-400 transition-colors" data-i18n="nav.services">Leistungen</a>
+        <a href="#products" class="text-gray-300 hover:text-accent-400 transition-colors" data-i18n="nav.products">Produkte</a>
+        <a href="#contact" class="text-gray-300 hover:text-accent-400 transition-colors" data-i18n="nav.contact">Kontakt</a>
+
+        <div class="flex items-center space-x-2">
+          <span class="text-gray-400 text-sm" data-i18n="nav.language">Sprache</span>
+          <select id="lang-select" class="bg-primary-800 border border-primary-700 text-gray-200 text-sm rounded px-2 py-1 focus:outline-none">
+            <option value="de">DE</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="mobile-menu-toggle" class="md:hidden text-gray-300" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden md:hidden bg-primary-800 border-t border-primary-700 px-4 py-3 space-y-3">
+    <a href="#about" class="block text-gray-300 hover:text-accent-400 py-1" data-i18n="nav.about">Über uns</a>
+    <a href="#services" class="block text-gray-300 hover:text-accent-400 py-1" data-i18n="nav.services">Leistungen</a>
+    <a href="#products" class="block text-gray-300 hover:text-accent-400 py-1" data-i18n="nav.products">Produkte</a>
+    <a href="#contact" class="block text-gray-300 hover:text-accent-400 py-1" data-i18n="nav.contact">Kontakt</a>
+
+    <div class="pt-2 border-t border-primary-700 flex items-center justify-between">
+      <span class="text-gray-400 text-sm" data-i18n="nav.language">Sprache</span>
+      <select id="lang-select-mobile" class="bg-primary-900 border border-primary-700 text-gray-200 text-sm rounded px-2 py-1 focus:outline-none">
+        <option value="de">DE</option>
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+      </select>
+    </div>
+  </div>
+</nav>

@@ -13,12 +13,12 @@ require 'phpmailer/SMTP.php';
 // ============================================
 $smtp_host     = "smtp.ionos.de";
 $smtp_port     = 465;
-$smtp_user     = "kontakt@ralfnatale.com";
-$smtp_password = '$Ralf#Natale!2023';
+$smtp_user     = "Ralf.natale@corentos.com";
+$smtp_password = '$Ralf#Natale!';
 $smtp_secure   = "ssl";
 
-$empfaenger    = "kontakt@ralfnatale.com";
-$absender_name = "Landingpage Kontakt";      // Absendername für die E-Mail
+$empfaenger    = "Ralf.natale@corentos.com";
+$absender_name = "corentos Webseite";      // Absendername für die E-Mail
 // ============================================
 
 function clean_input($data) {
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.html?status=success");
         exit;
     }
-    
+
     // Captcha-Validierung (Session-basiert)
     $captcha_answer = isset($_POST["captcha_answer"]) ? clean_input($_POST["captcha_answer"]) : "";
     $expected_captcha = isset($_SESSION['captcha_answer']) ? (string)$_SESSION['captcha_answer'] : "";
@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.html?status=error&msg=" . urlencode("Captcha ist ungültig"));
         exit;
     }
-
+    
     // Felder auslesen
     $name = isset($_POST["name"]) ? clean_input($_POST["name"]) : "";
     $email = isset($_POST["email"]) ? clean_input($_POST["email"]) : "";
@@ -91,9 +91,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         // Inhalt
         $mail->isHTML(false);
-        $mail->Subject = "[Landingpage] Anfrage von " . $name;
+        $mail->Subject = "Anfrage von " . $name;
         
-        $mail_body = "Neue Kontaktanfrage von der Landingpage\n";
+        $mail_body = "Neue Anfrage von corentos Webseite\n";
         $mail_body .= "========================================\n\n";
         $mail_body .= "Name: " . $name . "\n";
         $mail_body .= "E-Mail: " . $email . "\n\n";

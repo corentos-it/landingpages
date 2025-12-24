@@ -1,0 +1,449 @@
+{
+  "languages": ["de", "en", "fr"],
+  "defaultLanguage": "de",
+  "meta": {
+    "title": {
+      "de": "corentos | Technologie. Produkte. Wachstum.",
+      "en": "corentos | Technology. Products. Growth.",
+      "fr": "corentos | Technologie. Produits. Croissance."
+    },
+    "description": {
+      "de": "corentos - Technologie. Produkte. Wachstum.",
+      "en": "corentos - Technology. Products. Growth.",
+      "fr": "corentos - Technologie. Produits. Croissance."
+    }
+  },
+  "nav": {
+    "about": {"de": "Über uns", "en": "About", "fr": "À propos"},
+    "services": {"de": "Leistungen", "en": "Services", "fr": "Services"},
+    "products": {"de": "Produkte", "en": "Products", "fr": "Produits"},
+    "contact": {"de": "Kontakt", "en": "Contact", "fr": "Contact"},
+    "language": {"de": "Sprache", "en": "Language", "fr": "Langue"}
+  },
+  "hero": {
+    "tagline": {
+      "de": "Technologie. Produkte. Wachstum.",
+      "en": "Technology. Products. Growth.",
+      "fr": "Technologie. Produits. Croissance."
+    },
+    "pitch": {
+      "de": "Wir entwickeln maßgeschneiderte Software, schaffen digitale Produkte und unterstützen KMU dabei, online sichtbar zu werden.",
+      "en": "We build tailored software, create digital products, and help SMBs become visible online.",
+      "fr": "Nous développons des logiciels sur mesure, créons des produits numériques et aidons les PME à gagner en visibilité en ligne."
+    },
+    "ctaProducts": {"de": "Unsere Produkte", "en": "Our Products", "fr": "Nos produits"},
+    "ctaContact": {"de": "Kontakt", "en": "Contact", "fr": "Contact"},
+    "pyramid": {
+      "software": {"de": "Software", "en": "Software", "fr": "Logiciels"},
+      "products": {"de": "Produkte", "en": "Products", "fr": "Produits"},
+      "coaching": {"de": "Coaching", "en": "Coaching", "fr": "Coaching"}
+    }
+  },
+  "stats": [
+    {"value": "30+", "label": {"de": "Jahre Erfahrung", "en": "Years of experience", "fr": "Années d’expérience"}},
+    {"value": "10+", "label": {"de": "Branchen", "en": "Industries", "fr": "Secteurs"}},
+    {"value": "50+", "label": {"de": "Projekte", "en": "Projects", "fr": "Projets"}},
+    {"value": "100%", "label": {"de": "Made in Germany", "en": "Made in Germany", "fr": "Made in Germany"}}
+  ],
+  "services": {
+    "title": {"de": "Unsere Leistungen", "en": "Our Services", "fr": "Nos services"},
+    "items": [
+      {
+        "key": "software",
+        "title": {"de": "Softwareentwicklung", "en": "Software Development", "fr": "Développement logiciel"},
+        "description": {"de": "Individuelle Enterprise-Lösungen mit .NET, Blazor, WPF und modernen Web-Technologien.", "en": "Custom enterprise solutions with .NET, Blazor, WPF, and modern web technologies.", "fr": "Des solutions d’entreprise sur mesure avec .NET, Blazor, WPF et des technologies web modernes."},
+        "bullets": {
+          "de": [
+            "Digitalisierung Ihrer Geschäftsprozesse mit messbaren Effizienzgewinnen",
+            "Partnerschaftliche Begleitung von der Analyse bis zum Go-Live",
+            "Skalierbare, wartbare und zukunftssichere Lösungen"
+          ],
+          "en": [
+            "Digitize your business processes with measurable efficiency gains",
+            "Collaborative delivery from analysis to go-live",
+            "Scalable, maintainable, future-proof solutions"
+          ],
+          "fr": [
+            "Digitalisation de vos processus avec des gains d’efficacité mesurables",
+            "Accompagnement partenarial de l’analyse à la mise en production",
+            "Solutions évolutives, maintenables et pérennes"
+          ]
+        }
+      },
+      {
+        "key": "products",
+        "title": {"de": "Unsere Produkte", "en": "Our Products", "fr": "Nos produits"},
+        "description": {"de": "ERP-Systeme, Mobile Apps und SaaS-Lösungen für verschiedene Branchen.", "en": "ERP systems, mobile apps, and SaaS solutions for different industries.", "fr": "ERP, applications mobiles et solutions SaaS pour différents secteurs."},
+        "bullets": {
+          "de": [
+            "Entstanden aus echten Marktbedürfnissen und Praxiserfahrung",
+            "Ausgereifte Lösungen ohne lange Entwicklungszeiten",
+            "Regelmäßige Updates und deutscher Support"
+          ],
+          "en": [
+            "Built from real market needs and hands-on experience",
+            "Mature solutions without long development cycles",
+            "Regular updates and German support"
+          ],
+          "fr": [
+            "Nés de besoins réels du marché et de l’expérience terrain",
+            "Solutions matures sans cycles de développement trop longs",
+            "Mises à jour régulières et support en Allemagne"
+          ]
+        }
+      },
+      {
+        "key": "coaching",
+        "title": {"de": "Sichtbarkeits-Coaching", "en": "Visibility Coaching", "fr": "Coaching visibilité"},
+        "description": {"de": "Online-Marketing und Social Media Strategien für KMUs und Selbstständige.", "en": "Online marketing and social media strategies for SMBs and entrepreneurs.", "fr": "Marketing en ligne et stratégies réseaux sociaux pour PME et indépendants."},
+        "bullets": {
+          "de": [
+            "Maximale Reichweite mit minimalem Budget",
+            "Praxiserprobte Methoden – direkt umsetzbar",
+            "Werden Sie zur ersten Anlaufstelle in Ihrer Branche"
+          ],
+          "en": [
+            "Maximum reach with minimal budget",
+            "Proven methods you can apply immediately",
+            "Become the go-to choice in your industry"
+          ],
+          "fr": [
+            "Portée maximale avec un budget minimal",
+            "Méthodes éprouvées – directement applicables",
+            "Devenez la référence de votre secteur"
+          ]
+        }
+      }
+    ]
+  },
+  "products": {
+    "title": {"de": "Unsere Produkte", "en": "Our Products", "fr": "Nos produits"},
+    "items": [
+      {
+        "title": {"de": "corentos ERP-System", "en": "corentos ERP System", "fr": "Système ERP corentos"},
+        "description": {"de": "Unser bewährtes ERP-System für KMU. Module für Finanzbuchhaltung, Warenwirtschaft, Produktion und Logistik.", "en": "Our proven ERP system for SMBs. Modules for accounting, inventory, production, and logistics.", "fr": "Notre ERP éprouvé pour les PME. Modules de comptabilité, gestion des stocks, production et logistique."},
+        "tags": [".NET", "ERP", "SQL Server"],
+        "url": "https://corentos-it.com/",
+        "cta": {"de": "corentos-it.com →", "en": "corentos-it.com →", "fr": "corentos-it.com →"}
+      },
+      {
+        "title": {"de": "Hotelsoft", "en": "Hotelsoft", "fr": "Hotelsoft"},
+        "description": {"de": "Hotelmanagement-Software für Hotels und Pensionen. Buchungen, Gästeverwaltung und Abrechnung in einer Lösung.", "en": "Hotel management software for hotels and guesthouses. Bookings, guest management, and billing in one solution.", "fr": "Logiciel de gestion hôtelière. Réservations, gestion des clients et facturation en une solution."},
+        "tags": {"de": ["Hotelsoftware", "Buchungssystem", "Gästeverwaltung"], "en": ["Hotel software", "Booking", "Guest management"], "fr": ["Logiciel hôtelier", "Réservations", "Gestion clients"]},
+        "url": "https://hotelsoft.ma/",
+        "cta": {"de": "hotelsoft.ma →", "en": "hotelsoft.ma →", "fr": "hotelsoft.ma →"}
+      },
+      {
+        "title": {"de": "Passport-Scanner", "en": "Passport Scanner", "fr": "Scanner de passeport"},
+        "description": {"de": "Digitaler Check-In für Hotels. Scanne Reisepässe und Ausweise direkt mit dem Mobiltelefon.", "en": "Digital check-in for hotels. Scan passports and IDs directly with a mobile phone.", "fr": "Check-in digital pour les hôtels. Scannez passeports et pièces d’identité avec un mobile."},
+        "tags": {"de": ["Mobile App", "OCR", "Hotellerie"], "en": ["Mobile app", "OCR", "Hospitality"], "fr": ["App mobile", "OCR", "Hôtellerie"]},
+        "url": "https://gm-passscan.com/",
+        "cta": {"de": "gm-passscan.com →", "en": "gm-passscan.com →", "fr": "gm-passscan.com →"}
+      },
+      {
+        "title": {"de": "IT Concept Now", "en": "IT Concept Now", "fr": "IT Concept Now"},
+        "description": {"de": "IT-Nearshore Dienstleistung aus Deutschland. Vermittlung von geprüften IT-Fachkräften.", "en": "Germany-based IT nearshoring services. Placement of vetted IT specialists.", "fr": "Nearshore IT depuis l’Allemagne. Mise à disposition de profils IT qualifiés."},
+        "tags": {"de": ["Nearshore", "IT-Recruiting", "Projektmanagement"], "en": ["Nearshore", "IT recruiting", "Project management"], "fr": ["Nearshore", "Recrutement IT", "Gestion de projet"]},
+        "url": "https://itconceptnow.de/",
+        "cta": {"de": "itconceptnow.de →", "en": "itconceptnow.de →", "fr": "itconceptnow.de →"}
+      },
+      {
+        "title": {"de": "Facebook Marketing Onlinekurs", "en": "Facebook Marketing Online Course", "fr": "Cours en ligne Facebook Marketing"},
+        "description": {"de": "Schritt-für-Schritt-System mit KI-Unterstützung für Selbstständige, Coaches und Gründer.", "en": "Step-by-step system with AI support for entrepreneurs, coaches, and founders.", "fr": "Système pas à pas avec support IA pour indépendants, coachs et créateurs."},
+        "tags": {"de": ["Online-Kurs", "KI-gestützt", "Social Media"], "en": ["Online course", "AI-assisted", "Social media"], "fr": ["Cours en ligne", "Assisté par IA", "Réseaux sociaux"]},
+        "url": "https://ralfnatale.com/Kurs/V1/",
+        "cta": {"de": "Zum Kurs →", "en": "Go to course →", "fr": "Accéder au cours →"}
+      }
+    ]
+  },
+  "about": {
+    "title": {"de": "Über uns", "en": "About us", "fr": "À propos"},
+    "paragraphs": {
+      "de": [
+        "corentos ist das Unternehmen hinter innovativen Softwarelösungen und digitalen Produkten. Wir verbinden über 30 Jahre Erfahrung mit modernen Technologien.",
+        "Unsere drei Säulen – Softwareentwicklung, eigene Produkte und Sichtbarkeits-Coaching – bilden das Fundament für nachhaltigen Geschäftserfolg.",
+        "Von der Idee bis zur Umsetzung – wir begleiten Unternehmen auf ihrem Weg in die digitale Zukunft."
+      ],
+      "en": [
+        "corentos is the company behind innovative software solutions and digital products. We combine over 30 years of experience with modern technology.",
+        "Our three pillars—software development, our own products, and visibility coaching—form the foundation for sustainable growth.",
+        "From idea to rollout, we support companies on their path to a digital future."
+      ],
+      "fr": [
+        "corentos est l’entreprise derrière des solutions logicielles innovantes et des produits numériques. Nous combinons plus de 30 ans d’expérience avec des technologies modernes.",
+        "Nos trois piliers — développement logiciel, produits propres et coaching visibilité — constituent la base d’une croissance durable.",
+        "De l’idée à la mise en œuvre, nous accompagnons les entreprises vers l’avenir numérique."
+      ]
+    },
+    "strengthsTitle": {"de": "Unsere Stärken", "en": "Our strengths", "fr": "Nos points forts"},
+    "strengths": [
+      {
+        "title": {"de": "Technologie-Expertise", "en": "Technology expertise", "fr": "Expertise technologique"},
+        "text": {"de": ".NET, Blazor, MAUI und moderne Web-Technologien.", "en": ".NET, Blazor, MAUI, and modern web technologies.", "fr": ".NET, Blazor, MAUI et technologies web modernes."}
+      },
+      {
+        "title": {"de": "Eigene Produkte", "en": "Own products", "fr": "Produits propres"},
+        "text": {"de": "ERP-Systeme, Mobile Apps und digitale Lösungen.", "en": "ERP systems, mobile apps, and digital solutions.", "fr": "ERP, apps mobiles et solutions numériques."}
+      },
+      {
+        "title": {"de": "Marketing-Know-how", "en": "Marketing know-how", "fr": "Savoir-faire marketing"},
+        "text": {"de": "Sichtbarkeits-Coaching und Online-Marketing für KMUs.", "en": "Visibility coaching and online marketing for SMBs.", "fr": "Coaching visibilité et marketing en ligne pour les PME."}
+      }
+    ]
+  },
+  "contact": {
+    "title": {"de": "Kontakt", "en": "Contact", "fr": "Contact"},
+    "subtitle": {
+      "de": "Lassen Sie uns sprechen",
+      "en": "Let’s talk",
+      "fr": "Parlons-en"
+    },
+    "text": {
+      "de": "Haben Sie Fragen zu unseren Produkten oder Leistungen? Wir freuen uns auf Ihre Nachricht.",
+      "en": "Do you have questions about our products or services? We look forward to hearing from you.",
+      "fr": "Vous avez des questions sur nos produits ou services ? Nous serons ravis de vous répondre."
+    },
+    "successMessage": {
+      "de": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
+      "en": "Thank you! Your message has been sent successfully.",
+      "fr": "Merci ! Votre message a bien été envoyé."
+    },
+    "errorMessage": {
+      "de": "Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.",
+      "en": "There was a problem sending your message. Please try again.",
+      "fr": "Un problème est survenu lors de l’envoi. Veuillez réessayer."
+    },
+    "info": {
+      "locationLabel": {"de": "Standort", "en": "Location", "fr": "Localisation"},
+      "locationValue": {"de": "Deutschland", "en": "Germany", "fr": "Allemagne"},
+      "linkedInLabel": {"de": "LinkedIn", "en": "LinkedIn", "fr": "LinkedIn"},
+      "linkedInDisplay": {"de": "Jetzt folgen", "en": "Follow now", "fr": "Suivre maintenant"},
+      "linkedInUrl": "https://www.linkedin.com/in/ralfnatale/",
+      "facebookLabel": {"de": "Facebook", "en": "Facebook", "fr": "Facebook"},
+      "facebookDisplay": {"de": "Jetzt folgen", "en": "Follow now", "fr": "Suivre maintenant"},
+      "facebookUrl": "https://www.facebook.com/ralf.natale/"
+    },
+    "form": {
+      "nameLabel": {"de": "Name", "en": "Name", "fr": "Nom"},
+      "namePlaceholder": {"de": "Ihr Name", "en": "Your name", "fr": "Votre nom"},
+      "emailLabel": {"de": "E-Mail", "en": "Email", "fr": "E-mail"},
+      "emailPlaceholder": {"de": "ihre@email.de", "en": "you@email.com", "fr": "vous@email.fr"},
+      "messageLabel": {"de": "Nachricht", "en": "Message", "fr": "Message"},
+      "messagePlaceholder": {"de": "Ihre Nachricht...", "en": "Your message...", "fr": "Votre message..."},
+      "captchaLabel": {"de": "Sicherheitsfrage", "en": "Security question", "fr": "Question de sécurité"},
+      "captchaPlaceholder": {"de": "Ergebnis", "en": "Result", "fr": "Résultat"},
+      "captchaReload": {"de": "Neu laden", "en": "Reload", "fr": "Recharger"},
+      "submit": {"de": "Nachricht senden", "en": "Send message", "fr": "Envoyer le message"}
+    },
+    "ctaLinkedIn": {"de": "LinkedIn", "en": "LinkedIn", "fr": "LinkedIn"},
+    "ctaEmail": {"de": "E-Mail senden", "en": "Send email", "fr": "Envoyer un e-mail"}
+  },
+  "footer": {
+    "rights": {"de": "Alle Rechte vorbehalten.", "en": "All rights reserved.", "fr": "Tous droits réservés."},
+    "imprint": {"de": "Impressum", "en": "Imprint", "fr": "Mentions légales"},
+    "privacy": {"de": "Datenschutz", "en": "Privacy", "fr": "Protection des données"}
+  },
+  "legal": {
+    "imprint": {
+      "metaTitle": {"de": "corentos | Impressum", "en": "corentos | Imprint", "fr": "corentos | Mentions légales"},
+      "metaDescription": {"de": "Impressum von corentos", "en": "Imprint of corentos", "fr": "Mentions légales de corentos"},
+      "title": {"de": "Impressum", "en": "Imprint", "fr": "Mentions légales"},
+      "sections": [
+        {
+          "title": {"de": "Angaben gemäß § 5 TMG", "en": "Information according to § 5 TMG", "fr": "Informations conformément au § 5 TMG"},
+          "lines": {
+            "de": [
+              "corentos Ralf Natale",
+              "Personengesellschaft",
+              "Im Oberried 15",
+              "61194 Niddatal",
+              "Deutschland"
+            ],
+            "en": [
+              "corentos Ralf Natale",
+              "Partnership",
+              "Im Oberried 15",
+              "61194 Niddatal",
+              "Germany"
+            ],
+            "fr": [
+              "corentos Ralf Natale",
+              "Société de personnes",
+              "Im Oberried 15",
+              "61194 Niddatal",
+              "Allemagne"
+            ]
+          }
+        },
+        {
+          "title": {"de": "Vertreten durch", "en": "Represented by", "fr": "Représenté par"},
+          "lines": {
+            "de": ["Ralf Natale"],
+            "en": ["Ralf Natale"],
+            "fr": ["Ralf Natale"]
+          }
+        },
+        {
+          "title": {"de": "Kontakt", "en": "Contact", "fr": "Contact"},
+          "lines": {
+            "de": [
+              "E-Mail: ralf.natale@corentos.com",
+              "Telefon: —"
+            ],
+            "en": [
+              "Email: ralf.natale@corentos.com",
+              "Phone: —"
+            ],
+            "fr": [
+              "E-mail : ralf.natale@corentos.com",
+              "Téléphone : —"
+            ]
+          }
+        },
+        {
+          "title": {"de": "Umsatzsteuer", "en": "VAT", "fr": "TVA"},
+          "lines": {
+            "de": ["USt-IdNr.: DE 35 399 15 08"],
+            "en": ["VAT ID: DE 35 399 15 08"],
+            "fr": ["N° TVA : DE 35 399 15 08"]
+          }
+        },
+        {
+          "title": {"de": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV", "en": "Responsible for content pursuant to § 18 (2) MStV", "fr": "Responsable du contenu conformément au § 18 (2) MStV"},
+          "lines": {
+            "de": ["Ralf Natale, Im Oberried 15, 61194 Niddatal, Deutschland"],
+            "en": ["Ralf Natale, Im Oberried 15, 61194 Niddatal, Germany"],
+            "fr": ["Ralf Natale, Im Oberried 15, 61194 Niddatal, Allemagne"]
+          }
+        }
+      ],
+      "disclaimer": {
+        "de": "Hinweis: Dieses Impressum wurde auf Basis der bereitgestellten Angaben erstellt. Bitte lassen Sie die Angaben bei Bedarf rechtlich prüfen.",
+        "en": "Note: This imprint was created based on the provided information. Please have it legally reviewed if needed.",
+        "fr": "Remarque : ces mentions légales ont été rédigées sur la base des informations fournies. Veuillez les faire vérifier si nécessaire."
+      }
+    },
+    "privacy": {
+      "metaTitle": {"de": "corentos | Datenschutz", "en": "corentos | Privacy", "fr": "corentos | Protection des données"},
+      "metaDescription": {"de": "Datenschutzhinweise von corentos", "en": "Privacy policy of corentos", "fr": "Politique de confidentialité de corentos"},
+      "title": {"de": "Datenschutz", "en": "Privacy", "fr": "Protection des données"},
+      "updatedLabel": {"de": "Stand", "en": "Last updated", "fr": "Dernière mise à jour"},
+      "updatedValue": "2025-12-23",
+      "sections": [
+        {
+          "title": {"de": "Allgemeine Hinweise", "en": "General information", "fr": "Informations générales"},
+          "lines": {
+            "de": [
+              "Soweit nachstehend keine anderen Angaben gemacht werden, ist die Bereitstellung Ihrer personenbezogenen Daten weder gesetzlich noch vertraglich vorgeschrieben.",
+              "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen."
+            ],
+            "en": [
+              "Unless stated otherwise below, providing your personal data is neither legally nor contractually required.",
+              "Personal data means any information relating to an identified or identifiable natural person."
+            ],
+            "fr": [
+              "Sauf indication contraire ci-dessous, la fourniture de vos données personnelles n’est ni légalement ni contractuellement obligatoire.",
+              "Les données personnelles sont toutes les informations se rapportant à une personne physique identifiée ou identifiable."
+            ]
+          }
+        },
+        {
+          "title": {"de": "Verantwortlicher", "en": "Controller", "fr": "Responsable"},
+          "lines": {
+            "de": [
+              "Ralf Natale",
+              "Im Oberried 15, 61194 Niddatal, Deutschland",
+              "E-Mail: ralf.natale@corentos.com"
+            ],
+            "en": [
+              "Ralf Natale",
+              "Im Oberried 15, 61194 Niddatal, Germany",
+              "Email: ralf.natale@corentos.com"
+            ],
+            "fr": [
+              "Ralf Natale",
+              "Im Oberried 15, 61194 Niddatal, Allemagne",
+              "E-mail : ralf.natale@corentos.com"
+            ]
+          }
+        },
+        {
+          "title": {"de": "Server-Logfiles", "en": "Server log files", "fr": "Journaux serveur"},
+          "lines": {
+            "de": [
+              "Beim Besuch dieser Website werden durch den Webserver automatisch Protokolldaten verarbeitet (z.B. aufgerufene Seite, Datum/Uhrzeit, IP-Adresse, User-Agent).",
+              "Die Verarbeitung erfolgt zur technischen Bereitstellung, Sicherheit und Fehleranalyse."
+            ],
+            "en": [
+              "When you visit this website, the web server automatically processes log data (e.g., requested page, date/time, IP address, user agent).",
+              "Processing is carried out for technical delivery, security and troubleshooting."
+            ],
+            "fr": [
+              "Lors de la visite de ce site, le serveur web traite automatiquement des données de journal (ex. page consultée, date/heure, adresse IP, user-agent).",
+              "Ce traitement est nécessaire à la fourniture technique, à la sécurité et à l’analyse des erreurs."
+            ]
+          }
+        },
+        {
+          "title": {"de": "Kontaktaufnahme", "en": "Contact", "fr": "Contact"},
+          "lines": {
+            "de": [
+              "Wenn Sie uns kontaktieren (z.B. per Kontaktformular), verarbeiten wir die von Ihnen übermittelten Daten (Name, E-Mail, Nachricht) zur Bearbeitung Ihrer Anfrage.",
+              "Zum Schutz vor Missbrauch verwenden wir eine einfache Sicherheitsfrage (Captcha)."
+            ],
+            "en": [
+              "If you contact us (e.g., via the contact form), we process the data you provide (name, email, message) to handle your request.",
+              "To prevent abuse, we use a simple security question (captcha)."
+            ],
+            "fr": [
+              "Si vous nous contactez (par exemple via le formulaire), nous traitons les données transmises (nom, e-mail, message) afin de répondre à votre demande.",
+              "Pour éviter les abus, nous utilisons une question de sécurité simple (captcha)."
+            ]
+          }
+        },
+        {
+          "title": {"de": "Google Analytics (geplant)", "en": "Google Analytics (planned)", "fr": "Google Analytics (prévu)"},
+          "lines": {
+            "de": [
+              "Google Analytics (GA4) ist für diese Website geplant, aber aktuell noch nicht eingebunden.",
+              "Die Aktivierung soll erst nach Einwilligung über ein Cookie-Consent-Banner erfolgen."
+            ],
+            "en": [
+              "Google Analytics (GA4) is planned for this website, but it is not integrated yet.",
+              "It will only be activated after consent via a cookie consent banner."
+            ],
+            "fr": [
+              "Google Analytics (GA4) est prévu pour ce site, mais n’est pas encore intégré.",
+              "Il ne sera activé qu’après consentement via un bandeau de consentement aux cookies."
+            ]
+          }
+        },
+        {
+          "title": {"de": "Betroffenenrechte", "en": "Your rights", "fr": "Vos droits"},
+          "lines": {
+            "de": [
+              "Sie haben, sofern die gesetzlichen Voraussetzungen vorliegen, Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Datenübertragbarkeit.",
+              "Außerdem haben Sie das Recht, einer Verarbeitung aus Gründen Ihrer besonderen Situation zu widersprechen."
+            ],
+            "en": [
+              "If the legal requirements are met, you have rights of access, rectification, erasure, restriction of processing and data portability.",
+              "You also have the right to object to processing for reasons arising from your particular situation."
+            ],
+            "fr": [
+              "Sous réserve des conditions légales, vous disposez de droits d’accès, de rectification, d’effacement, de limitation du traitement et de portabilité.",
+              "Vous avez également le droit de vous opposer au traitement pour des raisons liées à votre situation particulière."
+            ]
+          }
+        }
+      ],
+      "disclaimer": {
+        "de": "Hinweis: Diese Datenschutzhinweise wurden auf Basis des aktuellen technischen Standes dieser Website erstellt.",
+        "en": "Note: This privacy policy was created based on the current technical state of this website.",
+        "fr": "Remarque : cette politique a été rédigée selon l’état technique actuel du site."
+      }
+    }
+  },
+  "theme": {
+    "sectionTintRgb": [148, 166, 174]
+  }
+}

@@ -23,13 +23,54 @@ Abgeschlossen:
 - corentos: Sektions-Header angepasst (Option A: Titel komplett dunkel, nur Unterstrich Accent)
 - corentos: Über uns Textblöcke in Card-Container gelegt (wie Leistungen)
 - corentos: Über uns Cards auf gleiche Höhe gebracht (items-stretch + h-full)
+- corentos: Python 3.12 installiert (winget) + lokaler Webserver (http.server) via Port 8082 (8080 ist systemseitig belegt)
+- corentos: start-server.bat / stop-server.bat angepasst (Port 8082, korrekte URL, Python-Pfad fix, Port 8000-Konflikt behoben)
 
 Offen:
-- corentos: Content in JSON auslagern
+
 
 Abgeschlossen (Aufräumen):
 - corentos: Finale Variante ist index.html (umbenannt von index-d.html)
 - corentos: Varianten index-a.html, index-b*.html, index-c.html in den Papierkorb verschoben
+- corentos: Content in JSON ausgelagert (data/content.json) inkl. DE/EN/FR
+- corentos: Header/Footer als Templates ausgelagert (templates/header.html, templates/footer.html)
+- corentos: Seite rendert Inhalte per JS (app.js) + Sprachumschaltung im Header (localStorage)
+- corentos: Kontaktformular wie ralfnatale integriert (send-mail.php + Erfolg/Fehler via ?status=... + DE/EN/FR Texte in content.json)
+- corentos: Einfaches Mathe-Captcha ergänzt (captcha.php + Validierung in send-mail.php + Captcha-Feld im Formular)
+- corentos: Nach Erfolg (status=success) Kontaktformular inkl. Captcha ausgeblendet (nur Dankemeldung sichtbar)
+- corentos: Fix: Dankemeldung bleibt sichtbar (bei status=success wird nur das Formular ausgeblendet)
+- corentos: Fix: Dankemeldung/Fehlermeldung oberhalb des Kontakt-Layouts platziert (immer sichtbar)
+- corentos: Kontakt-Links: Text "Profil öffnen" → "Jetzt folgen" (LinkedIn/Facebook)
+- corentos: Impressum-Unterseite erstellt (impressum.html + impressum.js) inkl. DE/EN/FR Content in data/content.json und Link im Footer
+- corentos: Refactoring: gemeinsame JS-Logik in www/src (ESM-Module) ausgelagert; index.html/impressum.html nutzen src/pages Entrypoints (keine Redundanz mehr)
+- corentos: Datenschutz-Unterseite erstellt (datenschutz.html + src/pages/datenschutz.js) inkl. DE/EN/FR Content in data/content.json und Link im Footer
+- corentos: Datenschutz: Hinweistext bereinigt (Passage zu "Analytics/Tracking" entfernt)
+- corentos: Fix Mobile-Menü: Header-Event-Listener werden nur einmal registriert (src/core/header.js + src/pages/*)
+- corentos: Header-Link: Brand/Home-Link von "#" auf "index.html" geändert (kein "/#" mehr)
+- corentos: impressum.html zu statischer HTML-Seite umgebaut (ohne JS/JSON/Templates; DE fix)
+- corentos: datenschutz.html zu statischer HTML-Seite umgebaut (ohne JS/JSON/Templates; DE fix)
+- corentos: impressum.html Inhalt aktualisiert (Text gemäß Vorgabe; Hinweis-Satz entfernt; Telefon ergänzt)
+- corentos: datenschutz.html Inhalt ersetzt (Datenschutzerklärung Text gemäß Vorgabe; Stand 23.12.2025; keine Cookies/Tracking)
+- ralfnatale: Datenschutzseite erstellt (www/datenschutz.html; Stand 24.12.2025)
+- ralfnatale: Footer-Link "Datenschutz" ergänzt (www/index.html + src/components/Footer.astro)
+- ralfnatale: Impressumseite erstellt (www/impressum.html)
+- ralfnatale: Footer-Link "Impressum" ergänzt (www/index.html + src/components/Footer.astro)
+- ralfnatale: Kontaktformular: Mathe-Captcha wie bei corentos ergänzt (www/captcha.php + Captcha-Feld im Formular + Validierung in www/send-mail.php)
+- ralfnatale: Astro-Setup aus www/ entfernt (für FTP-Deployment) und in d:\Development\LandingPages\_trash\ralfnatale_astro_backup_2025-12-24 verschoben: src/, public/, astro.config.mjs, tailwind.config.mjs, tsconfig.json, package.json, npm-debug.log
+- ralfnatale: favicon.svg aus dem Astro-public Backup zurück nach www/ verschoben (www/favicon.svg) und in www/index.html, www/impressum.html, www/datenschutz.html als <link rel="icon" ...> eingebunden
+- ralfnatale: Impressum korrigiert: Klammer-Hinweistext unter USt-IdNr. entfernt; E-Mail auf ralf.natale@ralfnatale.com gesetzt (www/impressum.html)
+- ralfnatale: Social-Link Texte auf "Folge mir" geändert (LinkedIn/Facebook) in www/index.html (Kontakt + Footer) sowie in www/impressum.html und www/datenschutz.html (Footer)
+- ralfnatale: Fix: Bei status=error/status=success nach dem Content-Render zum Kontaktbereich scrollen (www/index.html) – verhindert falsche Scrollposition (z.B. "Eigene Produkte") bei Captcha-Fehler
+- ralfnatale: Fix: Scroll bei status=error/status=success stabilisiert (nach window.load + Offset für fixed nav) (www/index.html)
+- ralfnatale: Fix: Kontaktformular-Eingaben werden bei status=error per sessionStorage wiederhergestellt und bei status=success gelöscht (www/index.html)
+- ralfnatale: Kontakt: Erfolg-/Fehlermeldung full-width oberhalb des 2-Spalten-Layouts platziert (wie corentos) (www/index.html)
+- ralfnatale: Social-Link Texte von "Folge mir" auf "Jetzt folgen" geändert (www/index.html, www/impressum.html, www/datenschutz.html)
+- ralfnatale: Footer Social-Links (LinkedIn/Facebook) auf reine Icons umgestellt (ohne Text) (www/index.html, www/impressum.html, www/datenschutz.html)
+- corentos: favicon erstellt (www/favicon.svg) mit Initialen "CO" (Hintergrund #192a3d, Text #00c4c4) und in www/index.html, www/impressum.html, www/datenschutz.html eingebunden
+- corentos: Persistenz der Kontaktformular-Eingaben bei status=error und das Löschen bei success (corentos/www/src/pages/index.js)
+- corentos: Captcha-Validierung in send-mail.php dokumentiert
+- corentos: Footer Social-Links (LinkedIn/Facebook) auf reine Icons umgestellt (ohne Text) (www/templates/footer.html, www/impressum.html, www/datenschutz.html)
+- corentos-it.com: GA4 Measurement-ID aus View-Source ermittelt: G-S66BZKJHH9 (Site Kit; opt-out snippet vorhanden)
 
 Details:
 - Projekt: d:\Development\LandingPages\corentos\www\index.html
