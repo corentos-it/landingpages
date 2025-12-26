@@ -1,9 +1,9 @@
-# robots.txt für ralfnatale.com
+# robots.txt für corentos.com
 User-agent: *
 Allow: /
 
-# Sitemap (optional - falls Du eine erstellst)
-# Sitemap: https://ralfnatale.com/sitemap.xml
+# Sitemap
+Sitemap: https://corentos.com/sitemap.xml
 
 # PHP-Dateien nicht indexieren
 Disallow: /send-mail.php

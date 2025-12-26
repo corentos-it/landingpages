@@ -28,11 +28,29 @@ function clean_input($data) {
     return $data;
 }
 
+function get_return_url() {
+    $default = 'index.html';
+    $allowed = ['index.html', 'index-en.html', 'index-fr.html'];
+
+    if (!isset($_POST['return_url'])) {
+        return $default;
+    }
+
+    $candidate = clean_input((string)$_POST['return_url']);
+
+    if (in_array($candidate, $allowed, true)) {
+        return $candidate;
+    }
+
+    return $default;
+}
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $return_url = get_return_url();
     
     // Honeypot-Check (Spam-Schutz)
     if (!empty($_POST["website"])) {
-        header("Location: index.html?status=success");
+        header("Location: " . $return_url . "?status=success");
         exit;
     }
 
@@ -41,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $expected_captcha = isset($_SESSION['captcha_answer']) ? (string)$_SESSION['captcha_answer'] : "";
 
     if ($captcha_answer === "" || $expected_captcha === "" || $captcha_answer !== $expected_captcha) {
-        header("Location: index.html?status=error&msg=" . urlencode("Captcha ist ungültig"));
+        header("Location: " . $return_url . "?status=error&msg=" . urlencode("Captcha ist ungültig"));
         exit;
     }
     
@@ -66,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     if (!empty($errors)) {
-        header("Location: index.html?status=error&msg=" . urlencode(implode(", ", $errors)));
+        header("Location: " . $return_url . "?status=error&msg=" . urlencode(implode(", ", $errors)));
         exit;
     }
     
@@ -108,12 +126,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Senden
         $mail->send();
         unset($_SESSION['captcha_answer']);
-        header("Location: index.html?status=success");
+        header("Location: " . $return_url . "?status=success");
         
     } catch (Exception $e) {
         // Fehler loggen (optional)
         error_log("Mailer Error: " . $mail->ErrorInfo);
-        header("Location: index.html?status=error&msg=" . urlencode("E-Mail konnte nicht gesendet werden"));
+        header("Location: " . $return_url . "?status=error&msg=" . urlencode("E-Mail konnte nicht gesendet werden"));
     }
     exit;
     
