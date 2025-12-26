@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "name": "Ralf Natale",
+    "slogan": "IT-Consulting: Erfahren. Prozessorientiert. Effizient.",
+    "description": "Über 30 Jahre Expertise in .NET-Entwicklung, Architektur und Beratung für Enterprise-Lösungen",
+    "ctaPrimary": "Kontakt",
+    "ctaSecondary": "Über mich"
+  },
+  "stats": [
+    { "value": "30+", "label": "Jahre Erfahrung" },
+    { "value": "50+", "label": "Projekte" },
+    { "value": "100%", "label": ".NET Fokus" },
+    { "value": "10+", "label": "Branchen" },
+    { "value": "⚡", "label": "Sofort verfügbar" }
+  ],
+  "about": {
+    "title": "Über mich",
+    "paragraphs": [
+      "Hallo, ich bin Ralf Natale. Als IT-Consultant und Senior .NET-Entwickler unterstütze ich Unternehmen seit über <span class=\"text-gold-400 font-semibold\">30 Jahren</span> dabei, stabile, wartbare und performante Client-Server-Anwendungen zu konzipieren und umzusetzen.",
+      "Mein Fokus liegt auf der Entwicklung von Cloud / Web- und Mobile-Applikationen mit Blazor und .NET MAUI sowie traditionelle Client/Server Applikationen mit WinForms und WPF. Ich kombiniere tiefes technisches Know-how mit einem klaren Blick für Geschäftsprozesse.",
+      "Ich begleite Projekte durch alle Phasen – mit klarer Struktur, transparenter Kommunikation und verlässlicher Umsetzung."
+    ],
+    "approach": [
+      { "title": "Prozessorientiert", "text": "Ich verstehe Deine Geschäftsprozesse und übersetze sie in effiziente Software-Lösungen." },
+      { "title": "Hands-on Mentalität", "text": "Vom Konzept bis zur Implementierung – ich packe selbst mit an." },
+      { "title": "Klare Kommunikation", "text": "Technische Komplexität verständlich erklärt – für alle Stakeholder." },
+      { "title": "Ergebnisorientiert", "text": "Ich fokussiere mich auf messbare Resultate – weniger Aufwand, höhere Stabilität und spürbare Effizienzgewinne." },
+      { "title": "Architektur & Qualität", "text": "Saubere Architektur, klare Standards und Tests schaffen wartbare Lösungen – auch langfristig." },
+      { "title": "Transparenz & Verlässlichkeit", "text": "Klare nächste Schritte, realistische Einschätzungen und frühzeitige Risiko-Ansprache – ohne Überraschungen." },
+      { "title": "Langfristige Partnerschaft", "text": "Ich denke über das aktuelle Projekt hinaus und baue nachhaltige Lösungen." }
+    ]
+  },
+  "services": [
+    { "title": "Software-Entwicklung", "text": "Enterprise-Anwendungen mit C#/.NET, WPF, WinForms und Web-Technologien." },
+    { "title": "IT-Beratung", "text": "Strategische Beratung bei Technologieauswahl und Architekturentscheidungen." },
+    { "title": "Datenbank-Design", "text": "MS SQL Server, Oracle, MySQL. Stored Procedures und Performance-Tuning." },
+    { "title": "Web- & Mobile-Entwicklung", "text": "ASP.NET, Blazor, .NET MAUI, Angular und REST-APIs. Web- und Mobile-Apps." },
+    { "title": "Office-Automatisierung", "text": "VBA-Makroprogrammierung für Excel, Word, Access und PowerPoint." },
+    { "title": "System-Integration", "text": "Integration in bestehende Systeme. Web Scraping und API-Anbindungen." }
+  ],
+  "technologies": [
+    "Blazor", ".NET MAUI", "Mobile Apps", "C#", ".NET Core", "ASP.NET", "JS", "Angular", "MS SQL Server", "REST APIs",
+    "WPF", "WinForms", "Oracle", "MySQL", "Entity Framework", "Azure DevOps", "SCRUM", "MVVM"
+  ],
+  "ownProducts": [
+    {
+      "title": "Facebook Marketing Onlinekurs",
+      "description": "Schritt-für-Schritt-System mit KI-Unterstützung für Selbstständige, Coaches und Gründer. Inkl. 100+ KI-Prompts, Hook-Formeln und Verkaufstexte.",
+      "tags": ["Online-Kurs", "KI-gestützt", "Social Media"],
+      "url": "https://ralfnatale.com/Kurs/V1/",
+      "linkText": "Zum Kurs →"
+    },
+    {
+      "title": "IT Concept Now - Nearshore",
+      "description": "IT-Nearshore Dienstleistung aus Deutschland. Vermittlung von geprüften IT-Fachkräften in 2 Tagen. Projektmanagement und Recruiting.",
+      "tags": ["Nearshore", "IT-Recruiting", "Projektmanagement"],
+      "url": "https://itconceptnow.de/",
+      "linkText": "itconceptnow.de →"
+    },
+    {
+      "title": "corentos ERP-System",
+      "description": "Eigenentwickeltes ERP-System für KMU. Module für Finanzbuchhaltung, Warenwirtschaft, Produktion und Logistik. Skalierbar und branchenerprobt.",
+      "tags": [".NET", "ERP", "SQL Server"],
+      "url": "https://corentos-it.com/",
+      "linkText": "corentos-it.com →"
+    },
+    {
+      "title": "Passport-Scanner",
+      "description": "Digitaler Check-In für Hotels. Scanne Reisepässe und Ausweise direkt mit dem Mobiltelefon – ohne zusätzliche Hardware. Automatische Datenübertragung ins Hotel-Management-System.",
+      "tags": ["Mobile App", "OCR", "Hotellerie"],
+      "url": "https://gm-passscan.com/",
+      "linkText": "GM-PassportScanner →"
+    }
+  ],
+  "clientProjects": [
+    {
+      "title": "Web-Portal Obst & Gemüse-Vertrieb",
+      "period": "2023",
+      "description": "CRM und Service-Interfaces für internationalen Handel. Webcrawler für Preisinformationen.",
+      "tags": [".NET Core", "Angular", "Selenium"],
+      "url": "https://www.moroccancitrus.de",
+      "linkText": "moroccancitrus.de →"
+    },
+    {
+      "title": "ERP-System Pharmabranche",
+      "period": "2014 - 2021",
+      "description": "Architektur und Entwicklung für Vertrieb und Produktion. Projektleitung.",
+      "tags": ["WPF", "C#", "Oracle"]
+    },
+    {
+      "title": "Freelancer / HR-Management-System",
+      "period": "2020 - 2022",
+      "description": "HR-System für Vertrieb und Mitarbeiterbeschaffung in der Recruiting-Branche.",
+      "tags": ["WPF", ".NET Core", "MVVM"]
+    },
+    {
+      "title": "Kundeninformationssystem Pharma",
+      "period": "2007 - 2011",
+      "description": "Einkauf, Logistik, Produktionsverwaltung und Lagerverwaltung.",
+      "tags": ["C#", "ASP.NET", "Oracle"]
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Herr Natale hat unser ERP-System von Grund auf konzipiert. Seine Expertise hat das Projekt zum Erfolg geführt.",
+      "name": "Michael Berger",
+      "role": "Geschäftsführer",
+      "initials": "MB"
+    },
+    {
+      "text": "Professionelle Zusammenarbeit. Die Schulungen waren hervorragend strukturiert und praxisnah.",
+      "name": "Sabine Klein",
+      "role": "IT-Leiterin",
+      "initials": "SK"
+    },
+    {
+      "text": "Zuverlässig, termingerecht und lösungsorientiert. Jederzeit zu empfehlen.",
+      "name": "Andreas Weber",
+      "role": "Projektleiter",
+      "initials": "AW"
+    }
+  ],
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns sprechen",
+    "text": "Haben Sie ein Projekt oder benötigen Beratung? Ich freue mich auf Ihre Nachricht.",
+    "location": "Niddatal (bei Frankfurt)",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/ralfnatale/",
+      "display": "linkedin.com/in/ralfnatale"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/ralf.natale/",
+      "display": "facebook.com/ralf.natale"
+    }
+  }
+}
