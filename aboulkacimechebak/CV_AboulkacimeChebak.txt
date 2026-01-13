@@ -1,0 +1,324 @@
+Aboulkacime Chebak
+Anschrift: Im Oberried 15, 61194 Niddatal
+E-Mail: contact@aboulkacimechebak.com
+Telefon: +49 179 / 39 23 757
+
+Architektur und Entwicklung von Client-Server Applikationen auf Basis von WinForms, WPF und Web in Verbindung mit Makroprogrammierung und Komponentenentwicklung.
+
+* Weitreichende Erfahrung in diversen Branchen bei Namhaften Unternehmen.
+* Tiefgreifende Kenntnisse moderner Methoden der Softwareentwicklung.
+* Sichere Anwendung diverser Programmiersprachen und Technologien im Windows und Web-Umfeld.
+
+
+C#.NET, VB.NET(> 20 Jahre).NET CORE(> 2 Jahre)JQuery(> 5 Jahre)JavaScript(> 12 Jahre)AngularS(> 2 Jahre)Silverlight, WPF	(> 3 Jahre)MS-Office: VBA, Excel, WinWord, Powerpoint(> 15 Jahre)Makroprogrammierung Excel, MS-Word, Access, Powerpoint(> 20 Jahre)SQL(> 20 Jahre)Web Api(> 7 Jahre)VB-Script(> 20 Jahre)HTML / CSS(> 20 Jahre)XML/ XPATH / XSL / XSLT / XHTML(> 12 Jahre)ASP, ASPX, ASP.NET(> 15 Jahre)Visual Basic 3.0 - 6.0(> 15 Jahre)
+
+MS SQL-Server(> 15 Jahre)MySQL(> 15 Jahre)MS-Access 7.0 / 2000 / 2002 / 2003 / 2007(> 10 Jahre)Oracle 8, 9, 10, 13(> 10 Jahre)
+
+Web scrapping / crawling mit Webbrowser-Erweiterungen von SeleniumAsure-DevOps Team-Entwicklung / FullstackMicroservices / verteilte AnwendungenMS SQL Server T-SQL - Stored ProceduresOracle PL-SQL- Stored ProceduresVisual-Basic, VBA, Office-VBAMigration Office Products 97 - 2000 – 2003 – 2007COM Schnittstellen / Active-X KomponentenOLE- ServerprogrammierungInternet Web-Server (IIS 5.0, 6.0, 7.0), Design, Programmierung, DB-Anbindung, Wartung (HTML, HTTP, CGI, TCP/IP, Active-X, FTP)Active Server Pages (ASP)/Microsoft Transaction Server/ Internet technologies. ASP Web-FormsAnalyse der Anforderung beim KundenSpezifikation, Architektur, Programmierung, Test, IntegrationAnwendungs- und SystemprogrammierungCrystal ReportsWeb-Browser DOM: IE, Firefox, Opera, MozillaVisual Studio 2003 / 2005 / 2008 / 2010 / 2015 / 2019 / 2021SVN: Tortoise SVNBugtracking: Gira, Bugzilla, MantisTransformation / Rendering mit XML und XSLTInfragistsics Win / Web-ControlsComponentOne, Silverlight /Win / Web-ControlsWiseJ-WebComponenten (JavaScript / Angular)OR-Mapper => Devart, Microsoft Entity FrameworkEntity-Framework 3.0 - 6.0 -XT4-Scripting, JsonWCF-Services, RESTFrameworks: Caliburn MicroUnittests: NUnit, Visual StudioAnwendungsentwicklung: Scrum, Agile Methodik
+
+Warenwirtschaft / Produktion / Lager (LVS)FinanzbuchhaltungKassensysteme / POSKassensystemeRechnungswesenERP-Systeme Warenwirtschaft / VertriebssteuerungSoftwareintegration in bestehende SystemePharmaindustrieHR / Personalbeschaffung / Recruitment Software Testing (Agil)Projekt-Management
+
+07/2023 – 
+Webseiten / Web-Portal-Erstellung mit integriertem CRM und Service-Interfaces für den Vertrieb im Obst & Gemüseanbau
+? Analyse der Problemstellung und Aufnahme der Kundenanforderung
+? Erarbeitung Architekturmodell und Design der Lösung
+? Entwicklung und Implementierung der Anforderungen
+? Schulung der Fachabteilungen.
+? Beratung und Unterstützung des Endkunden bei Umsetzung und Integration des Systems
+? Entwicklung und Integration Webcrawler zum Import Preisinformationen des Weltweiten Obsthandels
+? Agiles Test-Management und Reporting
+
+Software / Technologien:
+* WiseJ-Web Componenten, .NET Core, C#, ASP.NET, Angular, Java-Script, ADO.NET, MS-Word, MS-Excel, Visual Studio 2021, Microservices mittels REST, Web Api 2.0, Devops,, Wordpress, Webbrowser-Erweiterungen Selenium
+                              Frameworks:
+* Entity-Framework 6, WiseJ-WebComponenten, Wordpress
+Vorgehensmodell:
+* SCRUM
+Tests:
+* Unittests generiert von VS2021
+Betriebssystem:
+* Windows10, Windows11. Windows-Server 2019
+Datenbanken:
+* MS-SQL Server
+                              Kunde: 
+* GM-Soft, Casablanca
+                              Links: 
+* www.moroccancitrus.de
+* www.freshfoodeurope.com
+
+
+01/2023 – 06/2023
+Weiterentwicklung eines Inhouse ERP-Systems im Bereich Reparatur und Service
+? Analyse bestehender Software, Lösungsvorschläge ermitteln
+? Erarbeitung funktionaler und technischer Erweiterungen
+? Entwicklung und Implementierung der Erweiterungen
+? Schulung der Fachabteilungen.
+? Beratung und Unterstützung des Endkunden bei Umsetzung und Integration des Systems
+? Webcrawler Entwicklung und Integration zum automatischen auslesen externer Webseiten
+? Agiles Test-Management und Reporting
+
+Software / Technologien:
+* WinForms. WiseJ-Web Componenten, .NET Core, C#, ASP.NET, Angular, Java-Script, ADO.NET, MS-Word, MS-Excel, Visual Studio 2021, Microservices mittels REST, Web Api 2.0, Devops, Syncfusiuon, Webbrowser-Erweiterungen Selenium
+                              Frameworks:
+* Entity-Framework 6, WiseJ-WebComponenten
+Vorgehensmodell:
+* SCRUM
+Tests:
+* Unittests generiert von VS2021
+Betriebssystem:
+* Windows10, Windows11. Windows-Server 2019
+Datenbanken:
+* MS-SQL Server
+                              Kunde: 
+* NaviRep-Center, Rosbach
+* 
+01/2020 – 12/2022
+Weiterentwicklung eines HR-Verwaltungssystems für den Vertrieb und die Mitarbeiterbeschaffung in der Recruiting Branche
+? Entwicklung, Umsetzung, Integration in den Fachabteilungen.  
+? Analyse von funktionalen und technischen Anforderungen
+? Schulung der Fachabteilungen.
+? Beratung und Unterstützung des Endkunden bei Umsetzung und Integration des Systems
+
+
+Software / Technologien:
+* WPF, NET 4.0, .NET Core, C#, ASP.NET, Javascript, ADO.NET, XML, XSLT, Word (Makro), Excel (Makro), Visual Studio 2019, Microservices mittels REST / WCF-Services, Web Api 2.0, Devops, Syncfusiuon
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* Entity-Framework 4.6
+Vorgehensmodell:
+* SCRUM
+Tests:
+* Unittests generiert von VS2019
+Betriebssystem:
+* Windows7, Windows10.
+Datenbanken:
+* Oracle 12g, MySQL
+                              Kunde: 
+* Allgeier IT, Wiesbaden
+
+01/2014 – 03/2021
+Architektur, Konzeption, Entwicklung eines ERP-Systems für Vertrieb und Produktion in der Pharmabrache
+? Leiter der Planung, Design, Umsetzung, Integration beim Kunden.  
+? Analyse von funktionalen und technischen Anforderungen
+? Schulung der Fachabteilungen.
+? Beratung und Unterstützung des Endkunden bei Umsetzung und Integration des Systems
+? Testmanagement und Fehleranalyse
+
+Software / Technologien:
+* WPF, NET 4.0, .NET Core, C#, ASP.NET, Javascript, NodeJS, ADO.NET, XML, XSLT, Word (Makro), Excel (Makro), Visual Studio 2010, Infragistics, T4, Microservices mittels REST / WCF-Services, Web Api 2.0, Ticketsystem GIRA 
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* Entity-Framework 4.6
+Vorgehensmodell:
+* SCRUM
+Tests:
+* Unittests generiert von VS2019
+Betriebssystem:
+* Windows7, Windows10.
+Datenbanken:
+* Oracle 12g, MySQL
+                              Kunde: 
+* entroit GmbH Frankfurt
+
+02/2013 – 12/2013
+WPF Anwendung zum Verarbeiten von PDF-Dateien 
+? Automatische Verarbeitung von PDF-Dateien
+? Mapping, der Datenfelder aus dem PDF-Dokument mit spezifizierten Datenfeldern in Datentabellen
+? Diverse Windowsdienste zur Automatisierung
+? Datenübergabe an Zielsysteme wie z.B. XML, CSV, EXCEL (Makro), Word (Makro)
+? Steuerung per Regelwerk
+Software / Technologien:
+* WPF, NET 4.0, C#, ASP.NET, ADO.NET, XML, XSLT, Word, Excel, Visual Studio 2010, ComponentOne, T4, WCF-Services, Windows-Dienste, Subversion, Ticketsystem GIRA
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* Caliburn Micro, Entity-Framework 4.0, Entity-Framework 4.6
+Vorgehensmodell:
+* SCRUM
+Tests:
+* Unittests generiert von VS2010
+Betriebssystem:
+* Windows7.
+Datenbanken:
+* MySQL
+                              Kunde: 
+* Zelsis GmbH Hamburg
+
+
+10/2012 – 01/2013
+WPF Reporting Anwendung basierend auf REST-WebServices der Pflegebranche
+
+? Darstellung von tatsächlichen und geschätzten Verbrauchswerten von Pflegeeinrichtungen.
+? Design / Entwicklung der Datenbank und der Webservices
+? Schwerpunkt auf Performance des Datenflusses
+? Mehrschichtige Anwendung
+? Drei-Schichten Modell -> GUI, Business-Objects, Data-Access-Layer
+Software / Technologien:
+* Silverlight, WPF, NET 4.0, C#, ASP.NET, ADO.NET, XML, XSLT, Word, Excel, Visual Studio 2010, Crystal Reports, ComponentOne, T4, REST / WCF-Services, GIRA 
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* Caliburn Micro, Entity-Framework 4.0
+Vorgehensmodell:
+* SCRUM
+Tests:
+* Unittests generiert von VS2010
+Betriebssystem:
+* Windows7.
+Datenbanken:
+* MS-SQL
+                              Kunde: 
+* Marseille-Kliniken Hamburg
+
+
+
+07/2012 – 10/2012
+WEB-Frontend Entwicklung basierend auf JavaScript und Web Services
+
+? System für Produktpräsentationen oder Schulungen.
+? Design / Entwicklung des Frontends der Anwendung
+? Schwerpunkt auf usability
+? Mehrschichtige Anwendung
+? Drei-Schichten Modell -> GUI, Business-Objects, Data-Access-Layer
+Software / Technologien:
+* PHP, XML, XSLT, HTML, Word, Excel, Visual Studio 2010, Web-Services, YAHOO Web-Library, Javascript, Json, JQuery
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* PHP5
+Tests:
+* Unittests
+Betriebssystem:
+* Linux (Server), Windows7 (Desktop).
+Datenbanken:
+* MySQL
+                              Kunde: 
+* Dialogfeld Communications Kronberg
+
+04/2011 – 06/2012
+Architektur und Konzeption eines ERP Systems für den Vertrieb von   Pharmazeutischen Produkten
+
+? Projektleitung, Design / Entwicklung der Anwendung
+? Konzeption eines ERP-Systems basierend auf Silverlight 4.0 in Verbindung mit WCF-Services
+? Einkauf, Logistik, Produktionsverwaltung, Produktmanagement und Lagerverwaltung mit Kundenreservierungen
+? Präsentationsschicht mit Silverlight 4.0 und WPF
+
+Software / Technologien:
+* Silverlight, WPF, NET 4.0, C#, ASP.NET, ADO.NET, XML, XSLT, Word, Excel, Visual Studio 2010, Crystal Reports, ComponentOne, T4, WCF-Services, Subversion
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* Caliburn Micro, Entity-Framework 4.0
+Tests:
+* Unittests 
+Betriebssystem:
+* Windows7.
+Datenbanken:
+* Oracle 10
+                              Kunde: 
+* Zelestio GmbH Hamburg
+
+
+06/2007 – 03/2011
+Erweiterung des Kundeninformationssystems
+
+? Konzeption und Weiterentwicklung eines Kunden-Informationssystems
+? Drei-Schichten-Modell -> GUI, Business-Objects, Data-Access-Layer
+? Einkauf, Logistik, Produktionsverwaltung, Produktmanagement und Lagerverwaltung mit Kundenreservierungen
+? Erstellung von Eingabe- und Präsentationsmasken 
+? Erstellung von Webservices im Bereich Vertrieb / Kommissionierung
+? Programmierung PL/SQL
+
+Software / Technologien:
+* .NET 2.0, C#, VB.NET, ASP.NET, ADO.NET, XML, XSLT, Word, Excel, Visual Studio 2005 / 2008, Crystal Reports, Infragistics Suite, WCF-Services, Subversion
+Pattern: 
+* MVVM => Model-View-ViewModel
+                              Frameworks:
+* Caliburn Micro, Entity-Framework 3.0
+                              Vorgehensmodell:
+* Agile Methodik, SCRUM
+                              Tests:
+* Unittests generiert von VS2010
+Betriebssystem:
+* Office XP Professional.
+Datenbanken:
+* Oracle 9, MS-SQL 2008
+                              Kunde: 
+* AxiCorp Pharma Friedrichsdorf
+
+
+
+01/2007 – 04/2007
+Web- Applikation zur Verwaltung von Baufinanzierungen mit ASP.NET und C#
+
+? Weiterentwicklung und Pflege eines ASP.NET 2.0 Systems zur Verwaltung von Baufinanzierungen
+? Automatisierter Import von Webservices und Aufbereitung
+? Auslagern von Funktionen in Web-Services
+Software / Technologien:
+* VBA, XML, Word, Excel, Visual Studio 2005, .NET 2.0, C#, JavaScript, AJAX, ADO, ADO.NET
+                              Vorgehensmodell:
+* Agile Methodik, SCRUM
+                              Tests:
+* Unittests generiert von VS2005
+Betriebssystem:
+* Windows 2003 Server, Office XP Professional
+Datenbanken:
+* MS-SQL 2005
+     Kunde: 
+* GMARC-RFC Wiesbaden
+
+12/2005 – 04/2006
+Qualitätsmanagement Biometrisches Erfassungssystem für die Olympiade 2006 in Turin
+
+? Qualitätssicherung eines Biometrischen Erfassungssystems
+? Zugangsvalidierung per elektronischem Fingerabdruck
+? Analyse der Kundenanforderung, Erstellung der Testcases, Systemtests der Software
+Software / Technologien:
+* Zugangssoftware, Powepoint, Word, Excel
+Betriebssystem:
+* Office XP Professional
+Datenbanken:
+* Oracle, MSSQL-Server, Access 2005
+     Kunde: 
+* Bundesdruckerei, Berlin
+
+
+07/2005 – 10/2005
+Web-Anwendung zur Verwaltung medizinischer Studien
+
+? Entwicklung einer Intranet-Lösung zur Verwaltung und Pflege von medizinischen Studien
+? Sharepoint Portalserver in Verbindung mit Web-Services
+? Rendering der Web-Seiten mittels XML und XSLT-Stylesheets
+? Erstellung der Javascript-Bibliotheken sowie das CSS-Stylesheet
+? Seiten Cross-Browser kompatibel
+Software / Technologien:
+* HTML, JavaScript, XML, XSLT, ASP.NET, C#.NET, VB.NET, Visual Studio 2005, Microsoft Sharepoint Portal Server, IIS 5.0
+Betriebssystem:
+* Office XP Professional
+Datenbanken:
+* MSSQL
+     Kunde: 
+* Marseille Kliniken, Hamburg
+
+
+Grund / Realschule
+
+
+
+Sprachen:
+Deutsch – Muttersprache
+Englisch – Grundkenntnisse
+
+
+
+Niddatal, 14.1.2023 			
+
+Ralf Natale
+
+B E W E R B U N G S P R O F I L
+
+	Seite 1 von 2
+
+

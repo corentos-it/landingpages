@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aboulkacime Chebak - IT-Consulting: Erfahren. Prozessorientiert. Effizient.">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Aboulkacime Chebak – IT Unternehmer | Berater | Coach</title>
+  <link rel="canonical" href="https://aboulkacimechebak.com/">
+  <meta property="og:site_name" content="Aboulkacime Chebak">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aboulkacimechebak.com/">
+  <meta property="og:title" content="Aboulkacime Chebak – Senior .NET Consultant | Blazor, .NET MAUI, Architektur">
+  <meta property="og:description" content="IT-Consulting & Software-Entwicklung mit über 30 Jahren Erfahrung. Fokus: Blazor, .NET MAUI, Architektur und stabile Enterprise-Lösungen.">
+  <meta property="og:image" content="https://aboulkacimechebak.com/images/header.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aboulkacime Chebak – Senior .NET Consultant">
+  <meta name="twitter:description" content="IT-Consulting & Software-Entwicklung mit über 30 Jahren Erfahrung. Fokus: Blazor, .NET MAUI, Architektur.">
+  <meta name="twitter:image" content="https://aboulkacimechebak.com/images/header.png">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'anthracite': { 900: '#1a1a1a', 800: '#2d2d2d', 700: '#3d3d3d', 600: '#4a4a4a' },
+            'gold': { 500: '#d4a843', 400: '#e0b85c', 300: '#ecc975' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300 700;
+      font-display: swap;
+      src: url('inter-latin.woff2') format('woff2');
+    }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    html { scroll-behavior: smooth; }
+  </style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aboulkacime Chebak",
+      "url": "https://aboulkacimechebak.com/",
+      "jobTitle": "IT-Consultant / Senior .NET Developer",
+      "knowsAbout": ["Blazor", ".NET MAUI", "C#", ".NET", "Software Architecture", "Enterprise Software"],
+      "sameAs": [
+        "https://www.linkedin.com/in/aboulkacimechebak/",
+        "https://www.facebook.com/aboulkacime.chebak/"
+      ]
+    }
+  </script>
+</head>
+<body class="bg-anthracite-900 text-gray-100 antialiased">
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-anthracite-900/95 backdrop-blur-sm border-b border-anthracite-700">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="index.html" class="text-xl font-bold text-gold-500">RN</a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#about" class="text-gray-300 hover:text-gold-400 transition-colors">Über mich</a>
+          <a href="#services" class="text-gray-300 hover:text-gold-400 transition-colors">Leistungen</a>
+          <a href="#projects" class="text-gray-300 hover:text-gold-400 transition-colors">Projekte</a>
+          <a href="#contact" class="text-gray-300 hover:text-gold-400 transition-colors">Kontakt</a>
+          <a href="https://calendly.com/aboulkacimechebak/30min" target="_blank" rel="noopener" class="px-4 py-2 bg-gold-500 text-anthracite-900 font-semibold rounded-lg hover:bg-gold-400 transition-colors shadow-lg">Erstgespräch</a>
+        </div>
+        <div class="md:hidden flex items-center gap-3">
+          <a href="https://calendly.com/aboulkacimechebak/30min" target="_blank" rel="noopener" class="px-3 py-2 bg-gold-500 text-anthracite-900 font-semibold rounded-lg hover:bg-gold-400 transition-colors shadow-lg text-sm">Erstgespräch</a>
+          <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-gray-300" aria-label="Open menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-anthracite-800 border-t border-anthracite-700 px-4 py-3 space-y-2">
+      <a href="#about" class="block text-gray-300 hover:text-gold-400 py-2">Über mich</a>
+      <a href="#services" class="block text-gray-300 hover:text-gold-400 py-2">Leistungen</a>
+      <a href="#projects" class="block text-gray-300 hover:text-gold-400 py-2">Projekte</a>
+      <a href="#contact" class="block text-gray-300 hover:text-gold-400 py-2">Kontakt</a>
+      <a href="https://calendly.com/aboulkacimechebak/30min" target="_blank" rel="noopener" class="block text-gold-500 hover:text-gold-400 py-2 font-semibold">Erstgespräch buchen</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-[66vh] flex items-center justify-center pt-16 bg-cover bg-no-repeat" style="background-image: linear-gradient(rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.75)), url('images/header.png'); background-position: center top; background-size: cover;">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl sm:text-6xl font-bold mb-4" id="hero-name"><span class="text-white">Ralf</span> <span class="text-gold-500">Natale</span></h1>
+      <p class="text-xl sm:text-2xl text-gold-400 font-light mb-6" id="hero-slogan">IT-Consulting: Erfahren. Prozessorientiert. Effizient.</p>
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-10" id="hero-description">Über 30 Jahre Expertise in .NET-Entwicklung, Architektur und Beratung für Enterprise-Lösungen</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="px-8 py-3 bg-gold-500 text-anthracite-900 font-semibold rounded-lg hover:bg-gold-400 transition-colors shadow-lg" id="hero-cta-primary">Kontakt</a>
+        <a href="#about" class="px-8 py-3 border border-gold-500 text-gold-500 font-semibold rounded-lg hover:bg-gold-500/10 transition-colors" id="hero-cta-secondary">Über mich</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-8 bg-anthracite-900 border-y border-anthracite-700">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16" id="stats-container">
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-gold-500">30+</div>
+          <div class="text-gray-400 text-sm mt-1">Jahre Erfahrung</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-gold-500">50+</div>
+          <div class="text-gray-400 text-sm mt-1">Projekte</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-gold-500">100%</div>
+          <div class="text-gray-400 text-sm mt-1">.NET Fokus</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-gold-500">10+</div>
+          <div class="text-gray-400 text-sm mt-1">Branchen</div>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl md:text-5xl font-bold text-gold-500">⚡</div>
+          <div class="text-gray-400 text-sm mt-1">Sofort verfügbar</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-anthracite-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4"><span class="text-gold-500">Über</span> mich</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div id="about-paragraphs">
+          <p class="text-gray-300 text-lg leading-relaxed mb-6">Hallo, ich bin Aboulkacime Chebak. Als IT-Unternehmer und Berater unterstütze ich Unternehmen seit über <span class="text-gold-400 font-semibold">30 Jahren</span> dabei, geschäftskritische Anwendungen stabil, wartbar und performant zu konzipieren und umzusetzen.</p>
+          <p class="text-gray-300 text-lg leading-relaxed mb-6">Mein Fokus liegt auf der Beratung und Entwicklung von Cloud-, Web- und Mobile-Anwendungen mit Blazor und .NET MAUI – ebenso auf der Modernisierung und Weiterentwicklung klassischer Client/Server-Lösungen mit WinForms und WPF. Ich verbinde tiefes technisches Know-how mit einem klaren Blick für Geschäftsprozesse und belastbare Entscheidungen.</p>
+          <p class="text-gray-300 text-lg leading-relaxed mb-6">Ich begleite Projekte durch alle Phasen – mit klarer Struktur, transparenter Kommunikation und verlässlicher Umsetzung.</p>
+        </div>
+        <div class="space-y-4">
+          <h3 class="text-xl font-semibold text-gold-500 mb-4">Mein Ansatz</h3>
+          <div id="about-approach">
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Prozessorientiert</span><p class="text-gray-400 text-sm">Ich verstehe Deine Geschäftsprozesse und übersetze sie in effiziente, nachhaltige Software-Lösungen.</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Hands-on Mentalität</span><p class="text-gray-400 text-sm">Vom Konzept bis zur Implementierung: Ich packe selbst mit an und sorge für saubere Ergebnisse.</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Klare Kommunikation</span><p class="text-gray-400 text-sm">Ich mache technische Komplexität verständlich – für Fachbereiche, IT und Management.</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Ergebnisorientiert</span><p class="text-gray-400 text-sm">Ich fokussiere mich auf messbare Resultate: weniger Aufwand, höhere Stabilität und spürbare Effizienzgewinne.</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Architektur &amp; Qualität</span><p class="text-gray-400 text-sm">Ich setze auf saubere Architektur, klare Standards und Tests – damit Lösungen langfristig wartbar bleiben.</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Transparenz &amp; Verlässlichkeit</span><p class="text-gray-400 text-sm">Ich gebe klare nächste Schritte, realistische Einschätzungen und spreche Risiken frühzeitig an – ohne Überraschungen.</p></div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">Langfristige Partnerschaft</span><p class="text-gray-400 text-sm">Ich denke über das aktuelle Projekt hinaus und entwickle Lösungen, die nachhaltig tragen.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-anthracite-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4"><span class="text-gold-500">corentos</span> im Kontext</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-8"></div>
+      <p class="text-gray-400 text-center max-w-3xl mx-auto mb-12">Mit meinem Unternehmen - <a href="https://corentos.com/" target="_blank" class="text-gold-500 hover:text-gold-400">corentos</a> – entwickele ich maßgeschneiderte Software, schaffe digitale Produkte und unterstütze KMU dabei, online sichtbar zu werden.</p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <div class="text-gold-500 font-semibold text-sm mb-3">Überblick</div>
+          <h3 class="text-xl font-semibold text-white mb-4">Die Lösung für den Mittelstand</h3>
+          <p class="text-gray-400">corentos bündelt zentrale Unternehmensprozesse in einem System – klar strukturiert, modular erweiterbar und auf den Alltag kleiner und mittlerer Unternehmen ausgelegt. Ziel ist weniger Excel, weniger Medienbrüche und mehr Transparenz im Tagesgeschäft.</p>
+        </div>
+
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <div class="text-gold-500 font-semibold text-sm mb-3">Module &amp; Branchen</div>
+          <h3 class="text-xl font-semibold text-white mb-4">Vom Angebot bis zur Produktion</h3>
+          <p class="text-gray-400">Je nach Bedarf deckt das GMSoft ERP-System die Schwerpunkte CRM, Projektmanagement, Warenwirtschaft, Produktion, Logistik und weitere Bereiche ab. Besonders geeignet für Produktion, Handwerk, Dienstleistung und Gastronomie – mit dem Fokus auf effiziente Funktionen.</p>
+        </div>
+
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <div class="text-gold-500 font-semibold text-sm mb-3">USP</div>
+          <h3 class="text-xl font-semibold text-white mb-4">Einführung mit persönlicher Begleitung</h3>
+          <p class="text-gray-400">Ich begleite die Einführung von corentos persönlich: strukturiertes Onboarding, klare Prozesse und Unterstützung im Alltag – damit das System nicht nur installiert ist, sondern im Betrieb wirklich funktioniert. Mehr als Software: ein verlässlicher Partner für die Umsetzung.</p>
+          <div class="mt-6">
+            <a href="https://corentos.com/" target="_blank" class="inline-flex items-center text-gold-500 hover:text-gold-400 text-sm font-semibold">Mehr zu corentos →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-anthracite-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">Meine <span class="text-gold-500">Leistungen</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-3 gap-8" id="services-container">
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <h3 class="text-xl font-semibold text-white mb-4">Software-Entwicklung</h3>
+          <p class="text-gray-400">Enterprise-Anwendungen mit C#/.NET, WPF, WinForms und Web-Technologien.</p>
+        </div>
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <h3 class="text-xl font-semibold text-white mb-4">IT-Beratung</h3>
+          <p class="text-gray-400">Strategische Beratung bei Technologieauswahl und Architekturentscheidungen.</p>
+        </div>
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <h3 class="text-xl font-semibold text-white mb-4">Datenbank-Design</h3>
+          <p class="text-gray-400">MS SQL Server, Oracle, MySQL. Stored Procedures und Performance-Tuning.</p>
+        </div>
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <h3 class="text-xl font-semibold text-white mb-4">Web- &amp; Mobile-Entwicklung</h3>
+          <p class="text-gray-400">ASP.NET, Blazor, .NET MAUI, Angular und REST-APIs. Web- und Mobile-Apps.</p>
+        </div>
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <h3 class="text-xl font-semibold text-white mb-4">Office-Automatisierung</h3>
+          <p class="text-gray-400">VBA-Makroprogrammierung für Excel, Word, Access und PowerPoint.</p>
+        </div>
+        <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+          <h3 class="text-xl font-semibold text-white mb-4">System-Integration</h3>
+          <p class="text-gray-400">Integration in bestehende Systeme. Web Scraping und API-Anbindungen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies Section -->
+  <section id="skills" class="py-20 bg-anthracite-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4"><span class="text-gold-500">Technologien</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="flex flex-wrap justify-center gap-3" id="technologies-container">
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">Blazor</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">.NET MAUI</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">Mobile Apps</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">C#</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">.NET Core</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">ASP.NET</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">JS</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">Angular</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">MS SQL Server</span>
+        <span class="px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold">REST APIs</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">WPF</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">WinForms</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">Oracle</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">MySQL</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">Entity Framework</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">Azure DevOps</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">SCRUM</span>
+        <span class="px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full">MVVM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Own Products Section -->
+  <section id="projects" class="py-20 bg-anthracite-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">Eigene <span class="text-gold-500">Produkte</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-8" id="own-products-container">
+        <div class="bg-gradient-to-br from-anthracite-800 to-anthracite-700 p-6 rounded-xl border-2 border-gold-500/50 hover:border-gold-500 transition-colors">
+          <div class="flex justify-end mb-4"><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Eigenes Produkt</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">Hotelsoft</h3>
+          <p class="text-gray-400 mb-4">Hotelmanagement-Software für Hotels und Pensionen. Buchungen, Gästeverwaltung und Abrechnung in einer Lösung.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Hotelsoftware</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Buchungssystem</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Gästeverwaltung</span>
+          </div>
+          <a href="https://hotelsoft.ma/" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">hotelsoft.ma →</a>
+        </div>
+
+        <div class="bg-gradient-to-br from-anthracite-800 to-anthracite-700 p-6 rounded-xl border-2 border-gold-500/50 hover:border-gold-500 transition-colors">
+          <div class="flex justify-end mb-4"><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Eigenes Produkt</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">IT Concept Now - Nearshore</h3>
+          <p class="text-gray-400 mb-4">IT-Nearshore Dienstleistung aus Deutschland. Vermittlung von geprüften IT-Fachkräften in 2 Tagen. Projektmanagement und Recruiting.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Nearshore</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">IT-Recruiting</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Projektmanagement</span>
+          </div>
+          <a href="https://itconceptnow.de/" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">itconceptnow.de →</a>
+        </div>
+
+        <div class="bg-gradient-to-br from-anthracite-800 to-anthracite-700 p-6 rounded-xl border-2 border-gold-500/50 hover:border-gold-500 transition-colors">
+          <div class="flex justify-end mb-4"><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Eigenes Produkt</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">GMSoft ERP-System</h3>
+          <p class="text-gray-400 mb-4">Eigenentwickeltes ERP-System für KMU. Module für Finanzbuchhaltung, Warenwirtschaft, Produktion und Logistik. Skalierbar und branchenerprobt.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">.NET</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">ERP</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">SQL Server</span>
+          </div>
+          <a href="https://corentos-it.com/" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">corentos-it.com →</a>
+        </div>
+
+        <div class="bg-gradient-to-br from-anthracite-800 to-anthracite-700 p-6 rounded-xl border-2 border-gold-500/50 hover:border-gold-500 transition-colors">
+          <div class="flex justify-end mb-4"><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Eigenes Produkt</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">Passport-Scanner</h3>
+          <p class="text-gray-400 mb-4">Digitaler Check-In für Hotels. Scanne Reisepässe und Ausweise direkt mit dem Mobiltelefon – ohne zusätzliche Hardware. Automatische Datenübertragung ins Hotel-Management-System.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Mobile App</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">OCR</span>
+            <span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">Hotellerie</span>
+          </div>
+          <a href="https://gm-passscan.com/" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">GM-PassportScanner →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Projects Section -->
+  <section class="py-20 bg-anthracite-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4"><span class="text-gold-500">Kunden</span>projekte</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-2 gap-8" id="client-projects-container">
+        <div class="bg-anthracite-700 p-6 rounded-xl border border-anthracite-600">
+          <div class="flex justify-between mb-4"><span class="text-gold-500 text-sm">2023</span><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Abgeschlossen</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">Web-Portal Obst &amp; Gemüse-Vertrieb</h3>
+          <p class="text-gray-400 mb-4">CRM und Service-Interfaces für internationalen Handel. Webcrawler für Preisinformationen.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">.NET Core</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">Angular</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">Selenium</span>
+          </div>
+          <a href="https://www.moroccancitrus.de" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">moroccancitrus.de →</a>
+        </div>
+
+        <div class="bg-anthracite-700 p-6 rounded-xl border border-anthracite-600">
+          <div class="flex justify-between mb-4"><span class="text-gold-500 text-sm">2014 - 2021</span><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Abgeschlossen</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">ERP-System Pharmabranche</h3>
+          <p class="text-gray-400 mb-4">Architektur und Entwicklung für Vertrieb und Produktion. Projektleitung.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">WPF</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">C#</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">Oracle</span>
+          </div>
+        </div>
+
+        <div class="bg-anthracite-700 p-6 rounded-xl border border-anthracite-600">
+          <div class="flex justify-between mb-4"><span class="text-gold-500 text-sm">2020 - 2022</span><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Abgeschlossen</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">Freelancer / HR-Management-System</h3>
+          <p class="text-gray-400 mb-4">HR-System für Vertrieb und Mitarbeiterbeschaffung in der Recruiting-Branche.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">WPF</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">.NET Core</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">MVVM</span>
+          </div>
+        </div>
+
+        <div class="bg-anthracite-700 p-6 rounded-xl border border-anthracite-600">
+          <div class="flex justify-between mb-4"><span class="text-gold-500 text-sm">2007 - 2011</span><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Abgeschlossen</span></div>
+          <h3 class="text-xl font-semibold text-white mb-3">Kundeninformationssystem Pharma</h3>
+          <p class="text-gray-400 mb-4">Einkauf, Logistik, Produktionsverwaltung und Lagerverwaltung.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">C#</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">ASP.NET</span>
+            <span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">Oracle</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 bg-anthracite-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">Was <span class="text-gold-500">Kunden</span> sagen</h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div class="grid md:grid-cols-3 gap-8" id="testimonials-container">
+        <div class="bg-anthracite-900 p-6 rounded-xl border border-anthracite-700">
+          <div class="flex mb-4 text-gold-500">★★★★★</div>
+          <p class="text-gray-400 italic mb-6">"Herr Natale hat unser ERP-System von Grund auf konzipiert. Seine Expertise hat das Projekt zum Erfolg geführt."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-500 font-semibold mr-3">MB</div>
+            <div>
+              <div class="text-white font-medium">Michael Berger</div>
+              <div class="text-gray-500 text-sm">Geschäftsführer</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-anthracite-900 p-6 rounded-xl border border-anthracite-700">
+          <div class="flex mb-4 text-gold-500">★★★★★</div>
+          <p class="text-gray-400 italic mb-6">"Professionelle Zusammenarbeit. Die Schulungen waren hervorragend strukturiert und praxisnah."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-500 font-semibold mr-3">SK</div>
+            <div>
+              <div class="text-white font-medium">Sabine Klein</div>
+              <div class="text-gray-500 text-sm">IT-Leiterin</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-anthracite-900 p-6 rounded-xl border border-anthracite-700">
+          <div class="flex mb-4 text-gold-500">★★★★★</div>
+          <p class="text-gray-400 italic mb-6">"Zuverlässig, termingerecht und lösungsorientiert. Jederzeit zu empfehlen."</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-500 font-semibold mr-3">AW</div>
+            <div>
+              <div class="text-white font-medium">Andreas Weber</div>
+              <div class="text-gray-500 text-sm">Projektleiter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-anthracite-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4"><span class="text-gold-500">Kontakt</span></h2>
+      <div class="w-20 h-1 bg-gold-500 mx-auto mb-12"></div>
+      <div id="form-success" class="hidden p-4 mb-6 bg-green-500/20 border border-green-500 rounded-lg text-green-400">Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.</div>
+      <div id="form-error" class="hidden p-4 mb-6 bg-red-500/20 border border-red-500 rounded-lg text-red-400">Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.</div>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-xl font-semibold text-white mb-6" id="contact-subtitle">Lassen Sie uns sprechen</h3>
+          <p class="text-gray-400 mb-8" id="contact-text">Haben Sie ein Projekt oder benötigen Beratung? Ich freue mich auf Ihre Nachricht.</p>
+          <div class="space-y-4" id="contact-info">
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-500">📍</div>
+              <div>
+                <div class="text-gray-500 text-sm">Standort</div>
+                <span class="text-white">Niddatal (bei Frankfurt)</span>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-500">in</div>
+              <div>
+                <div class="text-gray-500 text-sm">LinkedIn</div>
+                <a href="https://www.linkedin.com/in/aboulkacimechebak/" target="_blank" class="text-white hover:text-gold-400">Jetzt folgen</a>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-500">f</div>
+              <div>
+                <div class="text-gray-500 text-sm">Facebook</div>
+                <a href="https://www.facebook.com/aboulkacime.chebak/" target="_blank" class="text-white hover:text-gold-400">Jetzt folgen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="send-mail.php" method="POST" class="space-y-6">
+          <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off">
+          <div><label class="block text-sm text-gray-300 mb-2">Name</label><input type="text" name="name" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500" placeholder="Ihr Name"></div>
+          <div><label class="block text-sm text-gray-300 mb-2">E-Mail</label><input type="email" name="email" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500" placeholder="ihre@email.de"></div>
+          <div><label class="block text-sm text-gray-300 mb-2">Nachricht</label><textarea name="message" rows="4" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500 resize-none" placeholder="Ihre Nachricht..."></textarea></div>
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <label class="block text-sm text-gray-300">Sicherheitsfrage: <span id="captcha-question" class="text-gray-200"></span></label>
+              <button id="captcha-reload" type="button" class="text-sm text-gold-500 hover:text-gold-400">Neu laden</button>
+            </div>
+            <input type="text" name="captcha_answer" required class="w-full px-4 py-3 bg-anthracite-800 border border-anthracite-700 rounded-lg text-white focus:outline-none focus:border-gold-500" placeholder="Ergebnis">
+          </div>
+          <button type="submit" class="w-full px-8 py-3 bg-gold-500 text-anthracite-900 font-semibold rounded-lg hover:bg-gold-400 transition-colors">Nachricht senden</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 bg-anthracite-800 border-t border-anthracite-700">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="text-gray-400 text-sm mb-4 md:mb-0">© <script>document.write(new Date().getFullYear())</script> Aboulkacime Chebak. Alle Rechte vorbehalten.</div>
+      <div class="flex space-x-6" id="footer-links">
+        <a href="impressum.html" class="text-gray-400 hover:text-gold-500">Impressum</a>
+        <a href="datenschutz.html" class="text-gray-400 hover:text-gold-500">Datenschutz</a>
+        <a href="https://www.linkedin.com/in/aboulkacimechebak/" target="_blank" class="text-gray-400 hover:text-gold-500" aria-label="LinkedIn">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.22 23.5h4.56V7.98H.22V23.5ZM8.02 7.98H12.4v2.12h.06c.61-1.16 2.1-2.38 4.33-2.38 4.63 0 5.49 3.05 5.49 7.02v8.76h-4.56v-7.77c0-1.85-.03-4.23-2.58-4.23-2.58 0-2.98 2.01-2.98 4.1v7.9H8.02V7.98Z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/aboulkacime.chebak/" target="_blank" class="text-gray-400 hover:text-gold-500" aria-label="Facebook">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" id="scrollToTop" class="fixed bottom-6 right-6 w-12 h-12 bg-gold-500 text-anthracite-900 rounded-full shadow-lg hover:bg-gold-400 transition-colors hidden items-center justify-center text-xl font-bold">↑</button>
+
+  <script>
+    const form = document.querySelector('form[action="send-mail.php"]');
+    if (form) {
+      form.addEventListener('submit', function () {
+        const nameInput = form.querySelector('input[name="name"]');
+        const emailInput = form.querySelector('input[name="email"]');
+        const messageInput = form.querySelector('textarea[name="message"]');
+
+        const payload = {
+          name: nameInput ? nameInput.value : '',
+          email: emailInput ? emailInput.value : '',
+          message: messageInput ? messageInput.value : ''
+        };
+
+        sessionStorage.setItem('contact_form_draft', JSON.stringify(payload));
+      });
+    }
+
+    function applyFormStatusAndDraft() {
+      const params = new URLSearchParams(window.location.search);
+      const status = params.get('status');
+
+      if (status === 'success') {
+        const successNode = document.getElementById('form-success');
+        if (successNode) {
+          successNode.classList.remove('hidden');
+        }
+      } else if (status === 'error') {
+        const errorNode = document.getElementById('form-error');
+        if (errorNode) {
+          errorNode.classList.remove('hidden');
+        }
+      }
+
+      if (status === 'error' && form) {
+        const draft = sessionStorage.getItem('contact_form_draft');
+        if (draft) {
+          try {
+            const draftData = JSON.parse(draft);
+            const nameInput = form.querySelector('input[name="name"]');
+            const emailInput = form.querySelector('input[name="email"]');
+            const messageInput = form.querySelector('textarea[name="message"]');
+
+            if (nameInput && typeof draftData.name === 'string') {
+              nameInput.value = draftData.name;
+            }
+            if (emailInput && typeof draftData.email === 'string') {
+              emailInput.value = draftData.email;
+            }
+            if (messageInput && typeof draftData.message === 'string') {
+              messageInput.value = draftData.message;
+            }
+          } catch (error) {
+            sessionStorage.removeItem('contact_form_draft');
+          }
+        }
+      }
+
+      if (status === 'success') {
+        sessionStorage.removeItem('contact_form_draft');
+      }
+
+      if (status === 'success' || status === 'error') {
+        const scrollToContact = function () {
+          const contactSection = document.getElementById('contact');
+          if (!contactSection) {
+            return;
+          }
+
+          const nav = document.querySelector('nav');
+          const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+          const topPadding = 16;
+          const contactTop = contactSection.getBoundingClientRect().top + window.pageYOffset;
+          const targetTop = Math.max(contactTop - navHeight - topPadding, 0);
+
+          window.scrollTo({ top: targetTop, behavior: 'smooth' });
+        };
+
+        if (document.readyState === 'complete') {
+          scrollToContact();
+        } else {
+          window.addEventListener('load', function () {
+            scrollToContact();
+          }, { once: true });
+        }
+      }
+    }
+
+    applyFormStatusAndDraft();
+
+    // Load content from JSON
+    if (false) {
+    fetch('data/content.json')
+      .then(response => response.json())
+      .then(data => {
+        // Hero Section
+        document.getElementById('hero-name').innerHTML = `<span class="text-white">${data.hero.name.split(' ')[0]}</span> <span class="text-gold-500">${data.hero.name.split(' ')[1]}</span>`;
+        document.getElementById('hero-slogan').textContent = data.hero.slogan;
+        document.getElementById('hero-description').textContent = data.hero.description;
+        document.getElementById('hero-cta-primary').textContent = data.hero.ctaPrimary;
+        document.getElementById('hero-cta-secondary').textContent = data.hero.ctaSecondary;
+
+        // Stats Section
+        const statsContainer = document.getElementById('stats-container');
+        data.stats.forEach(stat => {
+          statsContainer.innerHTML += `
+            <div class="text-center">
+              <div class="text-4xl md:text-5xl font-bold text-gold-500">${stat.value}</div>
+              <div class="text-gray-400 text-sm mt-1">${stat.label}</div>
+            </div>
+          `;
+        });
+
+        // About Section
+        const aboutParagraphs = document.getElementById('about-paragraphs');
+        data.about.paragraphs.forEach(p => {
+          aboutParagraphs.innerHTML += `<p class="text-gray-300 text-lg leading-relaxed mb-6">${p}</p>`;
+        });
+
+        const aboutApproach = document.getElementById('about-approach');
+        data.about.approach.forEach(item => {
+          aboutApproach.innerHTML += `
+            <div class="flex items-start gap-3">
+              <span class="text-gold-500 text-xl">✓</span>
+              <div><span class="text-white font-medium">${item.title}</span><p class="text-gray-400 text-sm">${item.text}</p></div>
+            </div>
+          `;
+        });
+
+        // Services Section
+        const servicesContainer = document.getElementById('services-container');
+        data.services.forEach(service => {
+          servicesContainer.innerHTML += `
+            <div class="bg-anthracite-800 p-8 rounded-xl border border-anthracite-700 hover:border-gold-500/50 transition-colors">
+              <h3 class="text-xl font-semibold text-white mb-4">${service.title}</h3>
+              <p class="text-gray-400">${service.text}</p>
+            </div>
+          `;
+        });
+
+        // Technologies Section
+        const techContainer = document.getElementById('technologies-container');
+        const highlightedTechnologies = new Set([
+          'Blazor',
+          '.NET MAUI',
+          'Mobile Apps',
+          'C#',
+          '.NET Core',
+          'ASP.NET',
+          'JS',
+          'Angular',
+          'MS SQL Server',
+          'REST APIs'
+        ]);
+        data.technologies.forEach(tech => {
+          const badgeClass = highlightedTechnologies.has(tech)
+            ? 'px-4 py-2 bg-gold-500/20 text-gold-400 border border-gold-500/40 rounded-full font-semibold'
+            : 'px-4 py-2 bg-anthracite-700 text-gray-300 rounded-full';
+          techContainer.innerHTML += `<span class="${badgeClass}">${tech}</span>`;
+        });
+
+        // Own Products Section
+        const ownProductsContainer = document.getElementById('own-products-container');
+        data.ownProducts.forEach(product => {
+          const tagsHtml = product.tags.map(tag => `<span class="px-2 py-1 bg-anthracite-700 text-gray-400 rounded text-xs">${tag}</span>`).join('');
+          const linkHtml = product.url ? `<a href="${product.url}" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">${product.linkText}</a>` : '';
+          ownProductsContainer.innerHTML += `
+            <div class="bg-gradient-to-br from-anthracite-800 to-anthracite-700 p-6 rounded-xl border-2 border-gold-500/50 hover:border-gold-500 transition-colors">
+              <div class="flex justify-end mb-4"><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Eigenes Produkt</span></div>
+              <h3 class="text-xl font-semibold text-white mb-3">${product.title}</h3>
+              <p class="text-gray-400 mb-4">${product.description}</p>
+              <div class="flex flex-wrap gap-2 mb-4">${tagsHtml}</div>
+              ${linkHtml}
+            </div>
+          `;
+        });
+
+        // Client Projects Section
+        const clientProjectsContainer = document.getElementById('client-projects-container');
+        data.clientProjects.forEach(project => {
+          const tagsHtml = project.tags.map(tag => `<span class="px-2 py-1 bg-anthracite-600 text-gray-400 rounded text-xs">${tag}</span>`).join('');
+          const linkHtml = project.url ? `<a href="${project.url}" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm">${project.linkText}</a>` : '';
+          clientProjectsContainer.innerHTML += `
+            <div class="bg-anthracite-700 p-6 rounded-xl border border-anthracite-600">
+              <div class="flex justify-between mb-4"><span class="text-gold-500 text-sm">${project.period}</span><span class="px-3 py-1 bg-gold-500/20 text-gold-400 rounded-full text-xs">Abgeschlossen</span></div>
+              <h3 class="text-xl font-semibold text-white mb-3">${project.title}</h3>
+              <p class="text-gray-400 mb-4">${project.description}</p>
+              <div class="flex flex-wrap gap-2 mb-4">${tagsHtml}</div>
+              ${linkHtml}
+            </div>
+          `;
+        });
+
+        // Testimonials Section
+        const testimonialsContainer = document.getElementById('testimonials-container');
+        data.testimonials.forEach(testimonial => {
+          testimonialsContainer.innerHTML += `
+            <div class="bg-anthracite-900 p-6 rounded-xl border border-anthracite-700">
+              <div class="flex mb-4 text-gold-500">★★★★★</div>
+              <p class="text-gray-400 italic mb-6">"${testimonial.text}"</p>
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-gold-500/20 rounded-full flex items-center justify-center text-gold-500 font-semibold mr-3">${testimonial.initials}</div>
+                <div>
+                  <div class="text-white font-medium">${testimonial.name}</div>
+                  <div class="text-gray-500 text-sm">${testimonial.role}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+
+        // Contact Section
+        document.getElementById('contact-subtitle').textContent = data.contact.subtitle;
+        document.getElementById('contact-text').textContent = data.contact.text;
+        
+        const contactInfo = document.getElementById('contact-info');
+        contactInfo.innerHTML = `
+          <div class="flex items-center"><div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-500">📍</div><div><div class="text-gray-500 text-sm">Standort</div><span class="text-white">${data.contact.location}</span></div></div>
+          <div class="flex items-center"><div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-500">in</div><div><div class="text-gray-500 text-sm">LinkedIn</div><a href="${data.contact.linkedin.url}" target="_blank" class="text-white hover:text-gold-400">Jetzt folgen</a></div></div>
+          <div class="flex items-center"><div class="w-12 h-12 bg-gold-500/10 rounded-lg flex items-center justify-center mr-4 text-gold-500">f</div><div><div class="text-gray-500 text-sm">Facebook</div><a href="${data.contact.facebook.url}" target="_blank" class="text-white hover:text-gold-400">Jetzt folgen</a></div></div>
+        `;
+
+        // Footer Links
+        const footerLinks = document.getElementById('footer-links');
+        footerLinks.innerHTML = `
+          <a href="impressum.html" class="text-gray-400 hover:text-gold-500">Impressum</a>
+          <a href="datenschutz.html" class="text-gray-400 hover:text-gold-500">Datenschutz</a>
+          <a href="${data.contact.linkedin.url}" target="_blank" class="text-gray-400 hover:text-gold-500" aria-label="LinkedIn">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.22 23.5h4.56V7.98H.22V23.5ZM8.02 7.98H12.4v2.12h.06c.61-1.16 2.1-2.38 4.33-2.38 4.63 0 5.49 3.05 5.49 7.02v8.76h-4.56v-7.77c0-1.85-.03-4.23-2.58-4.23-2.58 0-2.98 2.01-2.98 4.1v7.9H8.02V7.98Z"/>
+            </svg>
+          </a>
+          <a href="${data.contact.facebook.url}" target="_blank" class="text-gray-400 hover:text-gold-500" aria-label="Facebook">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07Z"/>
+            </svg>
+          </a>
+        `;
+
+        // Form status handling (after content has been rendered)
+        const params = new URLSearchParams(window.location.search);
+        const status = params.get('status');
+        if (status === 'success') {
+          document.getElementById('form-success').classList.remove('hidden');
+        } else if (status === 'error') {
+          document.getElementById('form-error').classList.remove('hidden');
+        }
+
+        if (status === 'error' && form) {
+          const draft = sessionStorage.getItem('contact_form_draft');
+          if (draft) {
+            try {
+              const draftData = JSON.parse(draft);
+              const nameInput = form.querySelector('input[name="name"]');
+              const emailInput = form.querySelector('input[name="email"]');
+              const messageInput = form.querySelector('textarea[name="message"]');
+
+              if (nameInput && typeof draftData.name === 'string') {
+                nameInput.value = draftData.name;
+              }
+              if (emailInput && typeof draftData.email === 'string') {
+                emailInput.value = draftData.email;
+              }
+              if (messageInput && typeof draftData.message === 'string') {
+                messageInput.value = draftData.message;
+              }
+            } catch (error) {
+              sessionStorage.removeItem('contact_form_draft');
+            }
+          }
+        }
+
+        if (status === 'success') {
+          sessionStorage.removeItem('contact_form_draft');
+        }
+
+        if (status === 'success' || status === 'error') {
+          const scrollToContact = function () {
+            const contactSection = document.getElementById('contact');
+            if (!contactSection) {
+              return;
+            }
+
+            const nav = document.querySelector('nav');
+            const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+            const topPadding = 16;
+            const contactTop = contactSection.getBoundingClientRect().top + window.pageYOffset;
+            const targetTop = Math.max(contactTop - navHeight - topPadding, 0);
+
+            window.scrollTo({ top: targetTop, behavior: 'smooth' });
+          };
+
+          if (document.readyState === 'complete') {
+            scrollToContact();
+          } else {
+            window.addEventListener('load', function () {
+              scrollToContact();
+            }, { once: true });
+          }
+        }
+      })
+      .catch(error => console.error('Error loading content:', error));
+    }
+
+    // Captcha
+    function loadCaptcha() {
+      const captchaQuestion = document.getElementById('captcha-question');
+      if (!captchaQuestion) {
+        return;
+      }
+
+      fetch('captcha.php', { credentials: 'same-origin' })
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (data) {
+          if (data && data.question) {
+            captchaQuestion.textContent = data.question;
+          }
+        })
+        .catch(function (error) {
+          console.error('Error loading captcha:', error);
+        });
+    }
+
+    const captchaReload = document.getElementById('captcha-reload');
+    if (captchaReload) {
+      captchaReload.addEventListener('click', function () {
+        loadCaptcha();
+      });
+    }
+
+    loadCaptcha();
+
+    // Scroll to top button
+    window.addEventListener('scroll', function() {
+      var btn = document.getElementById('scrollToTop');
+      if (window.scrollY > 300) {
+        btn.classList.remove('hidden');
+        btn.classList.add('flex');
+      } else {
+        btn.classList.add('hidden');
+        btn.classList.remove('flex');
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# robots.txt für aboulkacimechebak.com
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aboulkacimechebak.com/sitemap.xml
+
+# PHP-Dateien nicht indexieren
+Disallow: /send-mail.php
+Disallow: /phpmailer/
