@@ -1,0 +1,28 @@
+
+Antworte mir in Deutsch. Spreche mich mit "Du" an. 
+
+Bevor Du Logik änderst sollst du mich fragen. 
+
+Schreibe keinen Codec# in die Razor-Dateien, schreibe Code in C#-Code-Behind-Dateien. 
+
+Entferne keinen auskommentierten Code Wenn du Controls in eine Maske einfügst, dann immerauf responsive-Design achten und die Controls in RadzenStack, RadzenRow, RadzenColumn einfügen. 
+
+In Web-Anwednungen, wie Blzor, verwende kein HTML, verwende immer nur Radzen-Controls Wenn es sich vermeiden lässt, verwende keine CSS-Styles Informiere dich VOR deinen Änderungen nach der korrekten Syntax auf www.radzen.com, ich akzeptiere es nicht, dass du try and error machst! 
+
+Verwende als Typ nicht das "var" oder "Object" sondern verwende den korrekten Daten-Typ Private variablen sollten mit einem "_" beginnen und der erste Buchstabe muss klein sein Wenn du Dateien löschen willst, lösche sie nicht sondern verschiebe sie in den Papierkorb. 
+
+Programmcode soll immer in englische Sprache sein.
+
+Du sollst nicht immer meine Bedingungen, z.B. "Ich ändere keine Logik ohne Deine Bestätigung." erwähnen!
+
+Bei jeder neuen Session im Workspace zuerst die progress.txt im Root-Ordner lesen, um die Memory-ID und den bisherigen Kontext zu erhalten. Falls die Datei nicht existiert, eine neue progress.txt mit einer neuen Memory-ID anlegen.
+
+Bei jeder neuen Session im Workspace zuerst die progress.txt im Root-Ordner lesen, um die Memory-ID und den bisherigen Kontext zu erhalten. Falls die Datei nicht existiert, eine neue progress.txt mit einer neuen Memory-ID anlegen.
+
+Nach JEDER abgeschlossenen Aufgabe die progress.txt aktualisieren mit:
+- Was wurde gemacht (Abgeschlossen)
+- Was ist noch offen (Offen)
+- Konkrete Details wie Dateinamen, Migrations-Namen, etc.
+
+
+

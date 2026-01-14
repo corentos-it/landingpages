@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "corentos"
+		},
+		{
+			"path": "ralfnatale"
+		},
+		{
+			"path": "aboulkacimechebak"
+		},
+		{
+			"path": "aaa"
+		},
+		{
+			"path": "_trash"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/_trash/**": true
+		},
+		"search.exclude": {
+			"**/_trash/**": true
+		}
+	}
+}

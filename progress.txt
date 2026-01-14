@@ -102,7 +102,15 @@ Offen:
 
 Abgeschlossen (Aufräumen):
 - ralfnatale: Onlinekurs-Content (Leadmagnet-Landingpage, Brevo-Integration, etc.) wurde gelöscht und in ein separates Projekt ausgelagert
+- aboulkacimechebak: GMSoft Farbpalette übernommen (gold-Palette in Tailwind auf GMSoft Blau/Indigo gemappt: #2563eb/#4f46e5/#1d4ed8) (www/index.html, www/impressum.html, www/datenschutz.html)
+- aboulkacimechebak: Sektionen-Hintergründe auf dezente GMSoft Blau/Indigo-Tints umgestellt (Tailwind bg-gradient-to-b mit gold-*/10) (www/index.html)
+- aboulkacimechebak: Komplettes Light-Theme wie gmsoft.ma umgesetzt (helle Sektionen bg-white/bg-slate-50, weiße Cards, slate-Textfarben, heller Footer) (www/index.html)
+- ralfnatale: VS Code Workspace-Datei angelegt: `LandingPages.code-workspace`
+   - Root: `d:\Development\GitHub\LandingPages`
+   - Folders eingebunden: `corentos`, `ralfnatale`, `aboulkacimechebak`, `aaa`, `_trash`
+   - Projektweite Excludes gesetzt (Explorer + Suche) fuer: `_trash`
 
-Details:
-- Projekt corentos: d:\Development\LandingPages\corentos\www\index.html
-- Projekt ralfnatale: d:\Development\LandingPages\ralfnatale\www\index.html
+ Details:
+ - Projekt corentos: d:\Development\LandingPages\corentos\www\index.html
+ - Projekt ralfnatale: d:\Development\LandingPages\ralfnatale\www\index.html
+ - Projekt aboulkacimechebak: d:\Development\GitHub\LandingPages\aboulkacimechebak\www\index.html
